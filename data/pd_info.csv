@@ -1,0 +1,465 @@
+pd_id,size_and_item,category,price,love_count,reviews_count
+P286513,Format 0.003oz / 0.08g,"Makeup, Eye, Eyebrow",$12.00,121.3K,3.7K
+P230234,,"Makeup, Eye, Eyeliner",$13.00,194K,6.4K
+P281411,Format 0.169 oz/ 5 mL,"Makeup, Lip, Lipstick",$15.00,734.2K,10.2K
+P443317,Format 0.169 fl oz/5mL,"Makeup, Lip, Liquid Lipstick",$5.00 $15.00,32.2K,114
+P467140,Format 0.84 oz/ 25 mL,"Makeup, Face, Foundation",$20.00,35.3K,331
+P379509,Format 0.84 oz/ 25 mL,"Makeup, Face, Foundation",$20.00,144.1K,3.9K
+P408606,Format 0.264 oz/ 7.5 g,"Makeup, Face, Foundation",$20.00,69.1K,1.2K
+P429722,Size 1 Mask,"Skincare, Masks, Face Masks",$4.00 $5.50,162.7K,1.7K
+P377784,Format 0.04 oz/ 1.2 g,"Makeup, Eye, Eyeliner",$11.00,206.3K,3.1K
+P409800,Format 25 Wipes,"Skincare, Cleansers, Face Wipes",$8.00,259.4K,3.7K
+P430932,Format 0.035oz/1g,"Makeup, Eye, Eyeshadow",$9.00,236K,1.2K
+P442594,,"Skincare, Treatments, Face Serums",$20.00,61.6K,698
+P470250,,"Skincare, Value & Gift Sets",$39.00 ($221.00 value),25.5K,71
+P470052,,"Fragrance, Value & Gift Sets, Perfume Gift Sets",$75.00 ($148.00 value),3.4K,5
+P467041,,"Makeup, Value & Gift Sets",$30.00 ($83.00 value),21.7K,91
+P470050,,"Fragrance, Value & Gift Sets, Cologne Gift Sets",$68.00 ($106.00 value),2K,5
+P469881,,"Makeup, Value & Gift Sets",$44.00 ($134.00 value),5.9K,4
+P467040,,"Makeup, Eye, Mascara",$28.00 ($50.00 value),13.8K,23
+P470054,,"Fragrance, Value & Gift Sets, Perfume Gift Sets",$25.00 ($48.00 value),3.3K,4
+P467654,,"Fragrance, Value & Gift Sets, Perfume Gift Sets",$75.00 ($128.00 value),8.8K,27
+P467042,,"Makeup, Lip, Lip Sets",$30.00 ($65.00 value),10.8K,34
+P470053,,"Fragrance, Value & Gift Sets, Perfume Gift Sets",$25.00 ($43.00 value),1.5K,
+P471091,,"Makeup, Value & Gift Sets",$10.00 ($41.00 value),12.3K,31
+P455926,,"Skincare, Treatments, Face Serums",$88.00,50.5K,685
+P471097,,"Skincare, High Tech Tools, Anti-Aging",$399.00,1K,31
+P467973,,"Skincare, Eye Care, Eye Creams & Treatments",$68.00,5.5K,114
+P470055,,"Skincare, Value & Gift Sets",$39.00 ($52.00 value),1.3K,1
+P455927,,"Skincare, Mini Size",$30.00,0,685
+P455928,,"Skincare, Treatments, Face Serums",$88.00,8K,187
+P455931,,"Skincare, Moisturizers, Mists & Essences",$52.00,6.4K,87
+P455930,,"Skincare, Moisturizers, Moisturizers",$48.00,5.9K,122
+P455929,,"Skincare, Cleansers, Face Wash & Cleansers",$38.00,6K,137
+P468403,,"Skincare, Value & Gift Sets",$48.00 ($104.00 value),5.2K,4
+P469030,,"Skincare, Value & Gift Sets",$49.00 ($84.00 value),1.6K,1
+P458211,,"Skincare, Value & Gift Sets",$94.00 ($140.00 value),2.4K,4
+P307405,,"Skincare, Sun Care, Face Sunscreen",$35.00,99.3K,2.7K
+P244437,,"Tools & Brushes, Accessories, Eyelash Curlers",$22.00,88K,1.9K
+P448203,,"Skincare, Eye Care, Eye Creams & Treatments",$64.00,27.6K,1.3K
+P456398,,"Skincare, Sun Care, Face Sunscreen",$49.00,19.4K,2.8K
+P173619,,"Skincare, Eye Care, Eye Masks",$70.00,62.7K,457
+P173726,,"Skincare, Cleansers, Makeup Removers",$12.00,112.3K,2.6K
+P432834,,"Skincare, Treatments, Face Serums",$110.00,26K,444
+P468404,,"Skincare, Value & Gift Sets",$64.00 ($112.00 value),2.1K,2
+P448201,,"Skincare, Moisturizers, Moisturizers",$70.00,11.4K,180
+P403913,,"Hair, Hair Styling & Treatments, Hair Oil",$69.00,7.8K,232
+P469216,,"Hair, Shampoo & Conditioner, Shampoo",$49.00,747,64
+P430127,,"Hair, Hair Styling & Treatments, Hair Styling Products",$69.00,3.4K,138
+P434206,,"Hair, Hair Styling & Treatments, Hair Masks",$69.00,2.6K,18
+P414027,,"Hair, Hair Styling & Treatments, Scalp & Hair Treatments",$69.00,2.8K,19
+P469215,,"Hair, Hair Styling & Treatments, Hair Masks",$69.00,597,57
+P453923,,"Hair, Hair Styling & Treatments, Hair Oil",$28.00,4.3K,249
+P403936,,"Hair, Shampoo & Conditioner, Shampoo",$49.00,2.3K,187
+P403930,,"Hair, Hair Styling & Treatments, Scalp & Hair Treatments",$69.00,3.2K,29
+P470563,,"Hair, Value & Gift Sets",$79.00 ($108.00 value),157,
+P469217,,"Hair, Shampoo & Conditioner, Conditioner",$59.00,379,56
+P470564,,"Hair, Value & Gift Sets",$79.00 ($108.00 value),121,
+P375849,,"Skincare, Moisturizers, Mists & Essences",$185.00 ($214.00 value),92.8K,1.1K
+P469534,Format 7.7 oz/ 230 mL,"Skincare, Moisturizers, Mists & Essences",$247.00,1.6K,
+P375852,,"Skincare, Masks, Sheet Masks",$139.00 ($170.00 value),56.8K,410
+P447773,,"Skincare, Value & Gift Sets",$99.00 ($131.00 value),18K,54
+P426183,,"Skincare, Moisturizers, Mists & Essences",$99.00,37.6K,137
+P410756,,"Skincare, Moisturizers, Mists & Essences",$245.00,13.9K,127
+P375853,,"Skincare, Cleansers, Toners",$76.00,20.5K,194
+P468411,,"Skincare, Moisturizers, Moisturizers",$235.00,441,2
+P468412,,"Skincare, Value & Gift Sets",$110.00 ($155.00 value),1.3K,3
+P375850,,"Skincare, Cleansers, Face Wash & Cleansers",$75.00,12K,106
+P375854,,"Skincare, Moisturizers, Moisturizers",$385.00,2.1K,58
+P410755,,"Skincare, Moisturizers, Mists & Essences",$225.00,4.3K,100
+P416589,,"Skincare, Masks, Sheet Masks",$12.00,2.2K,8
+P416312,,"Skincare, Cleansers, Face Wash & Cleansers",$20.00,7.2K,194
+P416588,,"Skincare, Masks, Sheet Masks",$15.00,1.7K,4
+P442840,,"Skincare, Moisturizers, Moisturizers",$50.00,60K,809
+P442845,,"Bath & Body, Body Moisturizers, Body Lotions & Body Oils",$45.00,33K,460
+P442838,,"Skincare, Eye Care, Eye Creams & Treatments",$40.00,23.7K,788
+P442844,,"Bath & Body, Bath & Shower, Scrub & Exfoliants",$30.00,29.9K,481
+P442839,,"Skincare, Moisturizers, Moisturizers",$38.00,9.1K,502
+P442836,,"Skincare, Cleansers, Face Wash & Cleansers",$28.00,20.4K,740
+P442842,,"Bath & Body, Body Moisturizers, Hand Cream & Foot Cream",$18.00,16K,193
+P450599,,"Bath & Body, Body Moisturizers, Body Lotions & Body Oils",$45.00,6.3K,126
+P442837,,"Skincare, Treatments, Face Serums",$50.00,13K,387
+P442850,,"Skincare, Masks, Face Masks",$50.00,12.6K,220
+P442843,,"Skincare, Moisturizers, Moisturizers",$28.00,9K,231
+P442846,,"Bath & Body, Body Moisturizers, Body Lotions & Body Oils",$34.00,4.6K,25
+P456975,,"Fragrance, Women, Perfume",$78.00,2.7K,157
+P447525,,"Fragrance, Value & Gift Sets, Perfume Gift Sets",$29.00,8.9K,66
+P467146,,"Fragrance, Women, Perfume",$78.00,4K,123
+P456976,,"Mini Size, Fragrance",$29.00,870,8
+P447536,,"Fragrance, Women, Perfume",$78.00,2.4K,39
+P462740,,"Bath & Body, Bath & Shower, Hand Sanitizer & Hand Soap",$12.00,1.4K,116
+P447530,,"Fragrance, Women, Perfume",$78.00,1.8K,21
+P467147,,"Fragrance, Women, Rollerballs & Travel Size",$29.00,4.3K,123
+P466444,,"Bath & Body, Bath & Shower, Hand Sanitizer & Hand Soap",$5.00,1.4K,116
+P461201,,"Fragrance, Women, Perfume",$78.00,514,89
+P447533,,"Fragrance, Women, Perfume",$78.00,817,13
+P447535,,"Fragrance, Women, Rollerballs & Travel Size",$29.00,1.6K,13
+P402944,,"Skincare, Wellness, Holistic Wellness",$89.00,113.8K,374
+P431718,Format 6 pack,"Hair, Hair Tools, Hair Accessories",$39.00,59.4K,449
+P402943,,"Skincare, Wellness, Holistic Wellness",$110.00,22K,79
+P402942,,"Skincare, Wellness, Holistic Wellness",$50.00,38.9K,154
+P468413,,"Tools & Brushes, Hair Tools, Hair Accessories",$49.00 ($58.50 value),2.8K,2
+P430325,,"Hair, Hair Tools, Hair Accessories",$39.00,27.9K,92
+P467264,,"Hair, Hair Tools, Hair Accessories",$39.00,3.8K,18
+P454754,,"Hair, Hair Tools, Hair Accessories",$85.00,10.8K,33
+P444163,,"Hair, Hair Tools, Hair Accessories",$178.00 ($209.00 value),1.7K,3
+P446866,,"Hair, Hair Tools, Hair Accessories",$45.00,4.5K,19
+P430959,,"Skincare, Wellness, Holistic Wellness",$124.00,18.3K,15
+P441823,,"Hair, Hair Tools, Hair Accessories",$69.00,15.2K,21
+P9889,,"Makeup, Face, Face Primer",$37.00,222.1K,7.4K
+P292403,Format 1 oz/ 30 mL,"Makeup, Face, Foundation",$38.00,95.4K,3.1K
+P409317,Size 0.13 oz/ 3.84 mL,"Makeup, Lip, Lipstick",$24.00,289.1K,2.6K
+P460019,Size 1.4 fl oz/ 40mL,"Makeup, Face, Foundation",$36.00,15.3K,495
+P429909,,"Makeup, Makeup Palettes",$39.00,52.4K,447
+P456373,,"Makeup, Face, Face Primer",$39.00,11.3K,585
+P447362,,"Makeup, Face, Face Primer",$39.00,15.2K,473
+P387426,Format 0.40 oz/ 11 g,"Makeup, Face, Contour",$35.00,116.8K,1.4K
+P78811,,"Makeup, Face, Face Primer",$39.00,58.9K,2.4K
+P380998,Size 0.01 oz/ 0.28 g,"Makeup, Eye, Eyeliner",$22.00,30.8K,1.2K
+P456374,Format 0.35 oz/ 9.9 g,"Makeup, Face, Setting Spray & Powder",$42.00,4.5K,496
+P422463,,"Mini Size, Makeup",$14.00,53.9K,7.4K
+P447213,,"Skincare, Treatments, Face Serums",$105.00,4.4K,134
+P451749,,"Skincare, Moisturizers, Moisturizers",$75.00,3.7K,113
+P451746,,"Skincare, Treatments, Face Serums",$105.00,1.2K,220
+P451747,,"Skincare, Moisturizers, Moisturizers",$75.00,1.4K,12
+P451745,,"Skincare, Treatments, Facial Peels",$46.00,2.9K,20
+P451748,,"Skincare, Treatments, Face Serums",$75.00,1.4K,130
+P451744,,"Skincare, Cleansers, Face Wash & Cleansers",$42.00,1.1K,6
+P451750,,"Skincare, Eye Care, Eye Creams & Treatments",$65.00,1.5K,3
+P406080,,"Bath & Body, Body Moisturizers, Body Lotions & Body Oils",$45.00,291.1K,7.2K
+P470125,,"Bath & Body, Body Moisturizers, Body Lotions & Body Oils",$45.00,16.8K,390
+P444048,,"Bath & Body, Value & Gift Sets",$25.00 ($33.00 value),83.4K,380
+P417312,Size 3.04 oz/ 90 mL,"Fragrance, Women, Body Mist & Hair Mist",$19.00,73.9K,1K
+P421481,Format 3.04 oz/ 90 mL,"Mini Size, Fragrance",$19.00,65.8K,610
+P470126,,"Bath & Body, Mini Size",$20.00,11.1K,40
+P425318,,"Mini Size, Bath & Body",$20.00,110.9K,7.1K
+P411862,,"Bath & Body, Bath & Shower, Body Wash & Shower Gel",$25.00,74.4K,940
+P448211,,"Bath & Body, Body Moisturizers, Body Lotions & Body Oils",$45.00,27.1K,1.6K
+P456223,,"Fragrance, Women, Perfume",$78.00,26.8K,435
+P459306,,"Bath & Body, Bath & Shower, Scrub & Exfoliants",$42.00,37K,292
+P454098,,"Hair, Value & Gift Sets",$45.00,33.2K,282
+P469541,,"Bath & Body, Value & Gift Sets",$55.00,4.9K,680
+P432262,,"Skincare, Self Tanners, For Face",$30.00,22.3K,289
+P407450,,"Skincare, Self Tanners, For Body",$32.00,23.4K,476
+P407448,,"Bath & Body, Self Tanners",$44.00,18K,372
+P456400,,"Skincare, Self Tanners, For Body",$7.50,14.7K,350
+P456206,,"Skincare, Self Tanners, For Body",$42.00,7.2K,385
+P442746,,"Skincare, Self Tanners, For Body",$25.00,8.4K,732
+P407202,,"Skincare, Self Tanners, For Body",$30.00,7.8K,130
+P429683,,"Skincare, Self Tanners, For Body",$42.00,7.7K,142
+P456204,,"Skincare, Value & Gift Sets",$25.00,5.3K,16
+P407452,,"Bath & Body, Self Tanners",$44.00,7K,212
+P409603,,"Bath & Body, Self Tanners",$25.00,5.3K,44
+P441054,,"Tools & Brushes, High Tech Tools, Hair Removal",$75.00,21.8K,254
+P462894,,"Skincare, Value & Gift Sets",$85.00 ($142.00 value),4K,13
+P441046,,"Skincare, Value & Gift Sets",$23.50,8.1K,63
+P441049,,"Skincare, High Tech Tools, Anti-Aging",$125.00,7.6K,119
+P441053,,"Skincare, Treatments, Face Serums",$130.00,2.9K,22
+P446907,,"Skincare, Lip Treatments, Lip Balms & Treatments",$28.00,5K,69
+P441050,,"Skincare, High Tech Tools, Anti-Aging",$50.00,1.6K,18
+P441051,,"Skincare, Treatments, Face Serums",$150.00,1.6K,42
+P253818,Size 0.016 oz/ 0.5 mL,"Makeup, Eye, Eyeliner",$22.00,349.3K,10.9K
+P630872,Size 0.15 oz/ 4.5 mL,"Makeup, Eye, Eyeshadow",$24.00,420K,1.9K
+P427385,Format 0.153 oz,"Makeup, Eye, Eyeshadow",$24.00,159K,1.2K
+P406281,,"Makeup, Face, Color Correct",$31.50 $45.00,36.9K,147
+P261621,Format 0.01 oz/ 0.28 g,"Makeup, Eye, Eyeliner",$22.00,71.1K,2K
+P269019,,"Makeup, Face, Face Primer",$36.00,55.3K,1.2K
+P429008,Format .016 oz / 0.5 mL,"Makeup, Eye, Eyeliner",$22.00,21.2K,305
+P466152,Format 0.033 oz/ 1 mL,"Makeup, Eye, Eyeliner",$28.00 ($44.00 value),10.2K,20
+P397901,Size 0.44 oz/ 13 mL,"Makeup, Eye, Mascara",$23.00,23.1K,889
+P469538,,"Skincare, Treatments, Face Serums",$89.00,2.7K,222
+P469537,,"Skincare, Value & Gift Sets",$54.00 ($75.00 value),1.8K,128
+P448926,,"Skincare, Moisturizers, Moisturizers",$240.00,2.4K,183
+P450633,,"Skincare, Cleansers, Face Wash & Cleansers",$40.00,11.4K,146
+P450632,,"Skincare, Cleansers, Face Wash & Cleansers",$38.00,8.7K,152
+P448925,,"Skincare, Moisturizers, Moisturizers",$100.00,3.1K,87
+P448928,,"Skincare, Eye Care, Eye Creams & Treatments",$180.00,1.6K,16
+P448922,,"Skincare, Treatments, Face Serums",$205.00,1.9K,14
+P454775,,"Skincare, Moisturizers, Moisturizers",$240.00,1.1K,6
+P448918,,"Skincare, Moisturizers, Mists & Essences",$58.00,2.4K,15
+P450631,,"Skincare, Masks, Face Masks",$60.00,2.3K,10
+P448923,,"Skincare, Moisturizers, Moisturizers",$63.00,2.1K,15
+P449180,,"Skincare, Treatments, Face Serums",$64.00,63.8K,749
+P466153,,"Skincare, Moisturizers, Moisturizers",$42.00,26.5K,180
+P455936,Size 0.5 oz/ 15g,"Skincare, Lip Treatments, Lip Balms & Treatments",$22.00,57.5K,859
+P469189,,"Bath & Body, Body Moisturizers, Body Lotions & Body Oils",$26.00,13.5K,116
+P436387,,"Skincare, Masks, Face Masks",$44.00,61.3K,501
+P462745,,"Skincare, Treatments, Facial Peels",$54.00,19.3K,87
+P455242,,"Skincare, Cleansers, Face Wash & Cleansers",$38.00,20.4K,219
+P440504,,"Skincare, Masks, Face Masks",$52.00,44.1K,468
+P309308,,"Skincare, Treatments, Face Serums",$122.00 ($142.00 value),210.5K,4.6K
+P418346,,"Skincare, Treatments, Face Serums",$85.00,56K,775
+P463966,,"Skincare, Value & Gift Sets",$93.00 ($193.00 value),14.1K,24
+P393718,,"Skincare, Moisturizers, Face Oils",$55.00,146.4K,2.3K
+P440075,,"Skincare, Treatments, Face Serums",$85.00,49.3K,432
+P463965,,"Skincare, Value & Gift Sets",$95.00 ($177.00 value),14.9K,38
+P442761,,"Skincare, Moisturizers, Face Oils",$80.00,41.1K,460
+P457284,,"Skincare, Value & Gift Sets",$122.00 ($184.00 value),5.2K,7
+P406938,,"Skincare, Moisturizers, Moisturizers",$65.00,67K,1.4K
+P410400,,"Skincare, Moisturizers, Face Oils",$80.00,104.3K,2.1K
+P416139,,"Skincare, Moisturizers, Moisturizers",$65.00,52.4K,929
+P424948,,"Skincare, Eye Care, Eye Creams & Treatments",$65.00,24.7K,1.3K
+P454380,,"Skincare, Sun Care, Face Sunscreen",$44.00 ($51.00 value),143.8K,2.1K
+P456218,,"Skincare, Sun Care, Face Sunscreen",$36.00,82.6K,773
+P454383,,"Skincare, Sun Care, Face Sunscreen",$22.00,30.8K,797
+P466154,,"Skincare, Sun Care, Face Sunscreen",$46.00,24.3K,246
+P470057,,"Skincare, Sun Care, Face Sunscreen",$38.00,8.1K,238
+P470255,,"Skincare, Mini Size",$20.00,7.2K,5
+P467976,Format 0.15 oz/ 4.25 g,"Skincare, Value & Gift Sets",$30.00,9.3K,165
+P470254,,"Skincare, Value & Gift Sets",$28.00 ($41.00 value),5.4K,8
+P470058,,"Skincare, Sun Care, Body Sunscreen",$42.00,5.7K,204
+P439928,,"Skincare, Moisturizers, Moisturizers",$38.00,32.8K,526
+P454387,,"Skincare, Sun Care, Body Sunscreen",$15.00,23K,319
+P463353,Format 1.6 oz/ 47 mL,"Skincare, Moisturizers, BB & CC Creams",$39.00,17.5K,231
+P394178,Format 0.05 oz/ 1.56 g,"Makeup, Lip, Lipstick",$24.00 $34.00,14.3K,60
+P407377,Format 0.5 oz/ 15 mL,"Makeup, Face, Foundation",$49.00 $70.00,9.2K,90
+P394166,Format 0.06 oz/ 1.7 mL,"Makeup, Face, Concealer",$35.00 $50.00,3.6K,21
+P394180,Size 0.2 oz/ 6 mL,"Makeup, Lip, Lip Gloss",$22.50 $32.00,15.7K,38
+P432840,,"Makeup, Eye, Eyeshadow",$25.00 $36.00,11.1K,27
+P394175,Format 0.06 oz/ 1.7 g,"Makeup, Eye, Eyeshadow",$15.50 $22.00,45.1K,82
+P425734,"Format Lipstick 0.018 oz/ 0.51 g, Powder 0.009 oz/ 0.26 g","Makeup, Lip, Lipstick",$12.00 $38.00,1.7K,5
+P439024,,"Makeup, Face, Concealer",$40.50 $58.00,2.9K,7
+P402704,Format 0.08 oz/ 2.26 g,"Makeup, Lip, Lipstick",$25.00 $36.00,10.9K,21
+P394174,Size 0.0088 oz/ 0.24 g,"Makeup, Eye, Eyeshadow",$24.50 $35.00,6.3K,32
+P394179,Format 0.04 oz/ 1.1 g,"Makeup, Lip, Lipstick",$24.00 $34.00,8.3K,26
+P432839,,"Makeup, Brushes & Applicators, Eye Brushes",$19.50 $28.00,322,1
+P458506,,"Hair, Hair Tools, Hair Straighteners & Flat Irons",$150.00,5.9K,73
+P445425,,"Hair, Hair Tools, Curling Irons",$150.00,5.5K,17
+P463354,,"Hair, Hair Tools, Hair Straighteners & Flat Irons",$235.00,4.9K,85
+P469539,,"Hair, Hair Tools, Hair Dryers",$150.00,537,43
+P429717,,"Hair, Hair Tools, Curling Irons",$325.00 ($355.00 value),11.2K,40
+P388707,,"Hair, Hair Tools, Curling Irons",$300.00 ($355.00 value),44.5K,257
+P445441,,"Hair, Hair Tools, Hair Brushes & Combs",$35.00,5.4K,8
+P422239,,"Hair, Hair Tools, Curling Irons",$160.00,7.8K,50
+P428229,,"Hair, Hair Tools, Curling Irons",$150.00,11.4K,65
+P463355,,"Hair, Hair Tools, Curling Irons",$235.00,1.2K,57
+P427913,,"Hair, Hair Tools, Hair Dryers",$235.00,11.9K,113
+P428228,,"Hair, Hair Tools, Curling Irons",$150.00,8.2K,38
+P424988,Format 1.01 oz/ 30 mL,"Skincare, Self Tanners, For Face",$49.00,44.5K,361
+P424989,Format 1.69 oz/ 50 mL,"Bath & Body, Self Tanners, For Body",$59.00,17.1K,155
+P424990,,"Skincare, Self Tanners, For Face",$33.00,14.9K,109
+P447199,,"Skincare, Self Tanners, For Face",$49.00,11.4K,111
+P424985,Format 6.76 oz/ 200 mL,"Skincare, Self Tanners, For Face",$47.00,7.6K,75
+P456989,,"Skincare, Self Tanners, For Body",$49.00,5.4K,38
+P433440,Size 3.38 oz/ 100 mL,"Skincare, Self Tanners, For Body",$68.00,3.1K,20
+P424984,Format 6.76 oz/ 200 mL,"Skincare, Self Tanners, For Face",$49.00,4.7K,53
+P424986,,"Skincare, Self Tanners, For Body",$36.00,13K,151
+P470545,,"Skincare, Self Tanners, For Face",$49.00,1.3K,5
+P424987,,"Skincare, Self Tanners, For Face",$49.00,4.2K,22
+P432665,,"Bath & Body, Self Tanners, For Body",$33.00,905,6
+P433206,,"Makeup, Face, Concealer",$26.00,104.7K,1.7K
+P302918,Format 1.7 oz/ 50 mL,"Makeup, Face, Foundation",$39.00,188.1K,6.7K
+P403812,,"Makeup, Eye, Eye Palettes",$39.00,314.7K,3.2K
+P278610,,"Makeup, Cheek, Blush",$15.00,341.5K,6.1K
+P405102,Format 1 oz,"Makeup, Face, Foundation",$39.00,195.8K,3.8K
+P468416,,"Makeup, Eye, Eye Palettes",$45.00,22.5K,69
+P377542,Format 1 fl oz/ 30 mL,"Makeup, Face, BB & CC Cream",$37.00,113.1K,3.5K
+P111902,Format 0.24 oz/ 7 mL,"Makeup, Eye, Mascara",$23.00,104.6K,6.5K
+P456601,Format 0.56 oz/ 16 g,"Makeup, Cheek, Bronzer",$29.00,22.1K,122
+P67617,Size 1.7 oz,"Makeup, Face, Tinted Moisturizer",$36.00,72.6K,2.5K
+P456371,Size 1 oz/ 30 mL ,"Makeup, Face, Tinted Moisturizer",$29.00,29.9K,209
+P447364,Format 0.035 oz/ 1 g,"Mini Size, Makeup",$10.00,63.6K,378
+P452693,,"Skincare, Lip Treatments, Lip Balms & Treatments",$8.00,23K,90
+P379710,,"Skincare, Cleansers, Face Wash & Cleansers",$42.00,31.6K,571
+P429954,,"Skincare, Cleansers, Face Wash & Cleansers",$72.00,16.7K,197
+P379707,,"Skincare, Masks, Face Masks",$65.00,50.2K,730
+P458917,,"Skincare, Moisturizers, Moisturizers",$68.00,7.3K,195
+P386739,,"Skincare, Eye Care, Eye Creams & Treatments",$105.00,9.5K,99
+P449408,,"Skincare, Moisturizers, Mists & Essences",$215.00,3.5K,7
+P432048,,"Skincare, Treatments, Face Serums",$88.00,16.9K,316
+P379709,,"Skincare, Moisturizers, Moisturizers",$116.00,5.1K,130
+P392144,,"Skincare, Cleansers, Face Wash & Cleansers",$76.00,12.7K,153
+P379705,,"Skincare, Moisturizers, Mists & Essences",$72.00,11.1K,82
+P422848,,"Skincare, Moisturizers, Moisturizers",$195.00,2K,15
+P392143,,"Skincare, Value & Gift Sets",$75.00 ($117.00 value),20.3K,110
+P441101,,"Skincare, Moisturizers, Moisturizers",$68.00,173.5K,2K
+P418218,,"Skincare, Moisturizers, Moisturizers",$68.00,280.4K,3.6K
+P427536,,"Skincare, Cleansers, Face Wash & Cleansers",$38.00,162.7K,2.1K
+P461537,,"Skincare, Cleansers, Face Wash & Cleansers",$35.00,66.8K,1.8K
+P439058,,"Skincare, Treatments, Face Serums",$88.00,104.1K,1.5K
+P456446,,"Makeup, Face, Face Primer",$52.00,95.2K,1.6K
+P466155,,"Skincare, Treatments, Face Serums",$88.00,33.4K,1.3K
+P469546,,"Makeup, Face, Setting Spray & Powder",$48.00,18.5K,549
+P415771,,"Skincare, Moisturizers, Mists & Essences",$95.00,88.4K,1.3K
+P408206,,"Skincare, Sun Care, Face Sunscreen",$65.00,75.1K,655
+P447780,,"Skincare, Eye Care, Eye Creams & Treatments",$60.00,67.9K,1.4K
+P462750,,"Skincare, Value & Gift Sets",$88.00 ($120.00 value),14.1K,21
+P38221,,"Fragrance, Women, Perfume",$76.00,23.8K,651
+P470553,,"Fragrance, Value & Gift Sets, Perfume Gift Sets",$48.00 ($69.00 value),2.2K,1
+P456174,,"Fragrance, Value & Gift Sets, Perfume Gift Sets",$20.00 ($28.00 value),7.6K,21
+P38220,,"Fragrance, Women, Perfume",$76.00,11.8K,433
+P54900,,"Fragrance, Women, Perfume",$76.00,17.9K,549
+P419232,,"Fragrance, Women, Body Mist & Hair Mist",$34.00,7.4K,57
+P270025,,"Fragrance, Women, Perfume",$76.00,9K,206
+P234438,,"Fragrance, Women, Perfume",$76.00,13K,438
+P392935,Size 0.68 oz/ 20 mL,"Fragrance, Women, Rollerballs & Travel Size",$46.00,0,5
+P449745,,"Fragrance, Women, Lotions & Oils",$15.00 $22.00 ($30.00 value),3.1K,9
+P440917,,"Fragrance, Women, Perfume",$76.00,5.8K,72
+P386423,,"Fragrance, Women, Rollerballs & Travel Size",$27.00,7.2K,105
+P446887,,"Hair, Shampoo & Conditioner, Leave-In Conditioner",$27.00,16.7K,311
+P463115,,"Hair, Shampoo & Conditioner, Dry Shampoo",$25.00,1.6K,98
+P446878,,"Hair, Shampoo & Conditioner, Shampoo",$24.00,5.8K,139
+P446885,,"Hair, Shampoo & Conditioner, Shampoo",$29.00,5.4K,159
+P446877,,"Hair, Shampoo & Conditioner, Conditioner",$28.00,3.4K,40
+P463970,,"Hair, Shampoo & Conditioner, Dry Shampoo",$13.00,839,4
+P446880,,"Hair, Hair Styling & Treatments, Hair Masks",$28.00,4.5K,150
+P446884,,"Hair, Shampoo & Conditioner, Shampoo",$29.00,2.6K,86
+P446875,,"Hair, Hair Styling & Treatments, Hair Styling Products",$27.00,2.4K,13
+P446889,,"Hair, Shampoo & Conditioner, Conditioner",$29.00,1.7K,39
+P446882,,"Hair, Hair Styling & Treatments, Hair Oil",$45.00,4.6K,105
+P465370,,"Hair, Value & Gift Sets",$24.00 ($40.00 value),629,2
+P422568,Size 0.26 oz/ 6g,"Makeup, Eye, Eye Palettes",$88.00,168K,1.5K
+P406527,,"Fragrance, Women, Lotions & Oils",$100.00,32.2K,711
+P435852,,"Makeup, Lip, Lipstick",$55.00,13.4K,36
+P456175,,"Fragrance, Women, Lotions & Oils",$34.00 ($45.00 value),21.8K,711
+P393167,,"Fragrance, Women, Perfume",$250.00,17.9K,674
+P393151,,"Fragrance, Women, Perfume",$250.00,30.7K,280
+P406526,,"Fragrance, Women, Perfume",$250.00,23.4K,242
+P429291,,"Fragrance, Women, Perfume",$350.00,18.1K,145
+P436489,,"Fragrance, Women, Perfume",$350.00,17.9K,153
+P183301,,"Fragrance, Women, Perfume",$134.00,38.9K,1.8K
+P449372,Size 7 ml/ 0.24 fl oz,"Makeup, Lip, Lip Gloss",$55.00,22.9K,571
+P416222,Format 0.1 oz/ 2.96 mL,"Makeup, Lip, Lipstick",$55.00,47.1K,779
+P381000,,"Makeup, Eye, Mascara",$26.00,459.1K,17.2K
+P432298,Format 0.5 oz/ 14.8 mL,"Makeup, Face, Concealer",$30.00,311.2K,3.6K
+P378111,Size 0.14 oz/ 4 mL,"Makeup, Lip, Lip Gloss",$29.00,169.6K,2.4K
+P397517,Format 1 oz,"Makeup, Face, Foundation",$40.00,418.8K,9.9K
+P470555,,"Makeup, Eye, Eye Palettes",$45.00,4.3K,10
+P467794,Size 0.14 fl oz/ 4.1 mL,"Makeup, Lip, Lip Plumper",$29.00,14.5K,577
+P426850,Format 0.42 oz/ 12 g,"Makeup, Face, Highlighter",$36.00,87K,527
+P407908,,"Makeup, Eye, Mascara",$26.00,86.5K,3.8K
+P425608,,"Mini Size, Makeup",$14.00,88.6K,14.9K
+P470557,Format 0.14 oz/ 4 g,"Makeup, Lip, Lip Plumper",$29.00,4.2K,3
+P425607,Format 0.10 oz/ 2.8 g,"Mini Size, Makeup",$16.00,99.5K,2.3K
+P468422,,"Makeup, Eye, Mascara",$26.00,2.1K,5
+P470259,,"Skincare, Treatments, Face Serums",$36.00,13.9K,48
+P470061,,"Skincare, Masks, Face Masks",$32.00,6.1K,28
+P470260,,"Skincare, Value & Gift Sets",$56.00,3.8K,18
+P384967,,"Fragrance, Women, Perfume",$100.00,25K,457
+P443529,,"Fragrance, Value & Gift Sets, Perfume Gift Sets",$22.00,8.7K,16
+P486961,,"Fragrance, Women, Perfume",$122.00,14.2K,221
+P384971,,"Fragrance, Women, Rollerballs & Travel Size",$30.00,11.5K,216
+P414624,Format 0.20 oz/ 6 mL,"Fragrance, Women, Rollerballs & Travel Size",$30.00,0,19
+P433482,,"Fragrance, Value & Gift Sets, Perfume Gift Sets",$22.00,14.8K,32
+P447392,Format 0.12 oz/ 3.5 g,"Makeup, Eye, Eyeshadow",$11.00 $16.00,5.8K,41
+P449342,Size 0.158 oz/ 4.5 g,"Makeup, Cheek, Blush",$20.00,79.7K,405
+P448854,Size 0.13 oz/ 3.9 mL,"Makeup, Lip, Lip Gloss",$14.00,86.4K,686
+P448852,,"Skincare, Moisturizers, Mists & Essences",$28.00,16K,255
+P462895,Format 0.13 oz/ 3.9 mL,"Makeup, Lip, Lip Gloss",$14.00,63.9K,223
+P471105,,"Makeup, Value & Gift Sets",$26.00 ($34.00 value),6K,
+P458281,Format 4.5 oz/ 0.158 g,"Makeup, Cheek, Bronzer",$20.00,18.7K,143
+P448855,,"Makeup, Face, Highlighter",$18.00,15.9K,128
+P448853,,"Skincare, Moisturizers, Mists & Essences",$12.00,11.9K,65
+P429026,Format 0.21 oz / 6.0 g,"Makeup, Lip, Lip Balm & Treatment",$8.00 $12.00,8K,110
+P429276,,"Makeup, Lip, Lip Balm & Treatment",$17.00 $24.00,1.6K,12
+P416376,Format 0.06 oz/ 1.8 g,"Makeup, Face, Concealer",$17.00 $24.00,3.3K,36
+P431762,"Format Glaze: 0.028 oz/ 0.80 g, Lip Primer: 0.04 oz/ 1.0 g","Makeup, Lip, Lipstick",$18.00 $25.00,4.3K,62
+P416380,"Format Lip Crayon: 0.06 oz/ 1.8 g, Balm: 0.04 oz / 1.1 g","Makeup, Lip, Lipstick",$18.00 $25.00,7.4K,55
+P416573,,"Makeup, Accessories, Blotting Papers",$20.00 $28.00,3.1K,10
+P416379,Format 0.21 oz/ 6.1 g,"Makeup, Face, Tinted Moisturizer",$21.00 $30.00,3.2K,25
+P384903,,"Makeup, Eye, Eyebrow",$20.00,23.5K,138
+P398357,,"Makeup, Accessories, Eyelash Curlers",$23.00,15.2K,334
+P390932,,"Makeup, Eye, Eyebrow",$15.00,16.3K,174
+P377005,,"Tools & Brushes, Accessories, Tweezers & Eyebrow Tools",$23.00,19.3K,261
+P375640,,"Tools & Brushes, Accessories, Tweezers & Eyebrow Tools",$23.00,18.3K,235
+P389168,,"Tools & Brushes, Accessories, Tweezers & Eyebrow Tools",$20.00,19.9K,423
+P377523,,"Tools & Brushes, Accessories, Tweezers & Eyebrow Tools",$27.00,12.1K,157
+P460845,,"Makeup, Accessories, Tweezers & Eyebrow Tools",$17.00,3.9K,3
+P230701,,"Tools & Brushes, Accessories, Eyelash Curlers",$23.00,18.9K,708
+P463103,,"Tools & Brushes, Accessories, Tweezers & Eyebrow Tools",$23.00,0,
+P377004,,"Tools & Brushes, Accessories, Tweezers & Eyebrow Tools",$24.00,5.2K,84
+P442763,,"Makeup, Accessories, Tweezers & Eyebrow Tools",$24.00,4.1K,19
+P384099,Format 12 x 0.05 oz/ 1.41 g,"Makeup, Eye, Eye Palettes",$54.00,396.1K,6.6K
+P263504,,"Makeup, Face, Setting Spray & Powder",$33.00,555.8K,11K
+P133707,Format 0.04 oz/ 1.2 g,"Makeup, Eye, Eyeliner",$22.00,441.9K,16K
+P422455,,"Mini Size, Makeup",$15.00,131.8K,10.9K
+P468712,,"Makeup, Eye, Eye Palettes",$49.00,27.9K,842
+P436254,,"Makeup, Face, Setting Spray & Powder",$42.00 ($66.00 value),33.8K,9.6K
+P284716,,"Makeup, Eye, Eye Primer",$24.00,279.3K,7.4K
+P388225,,"Mini Size, Makeup",$29.00,203.5K,1.8K
+P447143,Size 1.0 fl oz/ 30 mL,"Makeup, Face, Foundation",$39.00,54.2K,2K
+P74312,Size 0.25 oz/ 7.5 mL,"Makeup, Eye, Eyeliner",$21.00,233.2K,2.4K
+P454337,,"Makeup, Face, Face Primer",$36.00,19.1K,462
+P422461,,"Mini Size, Makeup",$13.00,58K,433
+P449116,,"Fragrance, Women, Perfume",$105.00,37.8K,734
+P462409,,"Fragrance, Women, Perfume",$30.00,8.3K,800
+P449117,,"Fragrance, Women, Rollerballs & Travel Size",$30.00,17K,734
+P467152,,"Fragrance, Value & Gift Sets, Perfume Gift Sets",$35.00 ($55.00 value),5.3K,15
+P470063,,"Fragrance, Women, Perfume",$130.00,1.6K,234
+P462410,,"Fragrance, Women, Rollerballs & Travel Size",$30.00,7.7K,800
+P452943,,"Fragrance, Men, Cologne",$95.00,2.1K,108
+P470062,,"Fragrance, Men, Cologne",$95.00,461,208
+P429277,,"Makeup, Eye, False Eyelashes",$26.00,51K,876
+P429278,,"Makeup, Eye, False Eyelashes",$29.00 ($39.00 value),38.4K,292
+P468423,,"Makeup, Eye, False Eyelashes",$27.00,4.4K,253
+P456154,Format 3.5 g,"Makeup, Eye, Eye Sets",$23.00,14.7K,342
+P420513,Size 0.5 oz/ 10 mL,"Makeup, Eye, False Eyelashes",$12.00,16.6K,408
+P460561,Format 0.8 oz/ 23g,"Makeup, Eye, Eyebrow",$25.00,4.5K,306
+P449091,,"Makeup, Eye, False Eyelashes",$30.00,17.4K,657
+P447558,,"Makeup, Eye, False Eyelashes",$30.00,13.2K,521
+P420514,,"Makeup, Eye, False Eyelashes",$22.00,15.3K,33
+P420510,,"Makeup, Eye, False Eyelashes",$26.00,44.3K,130
+P449085,,"Makeup, Eye, False Eyelashes",$29.00,6K,20
+P456369,,"Makeup, Eye, False Eyelashes",$15.00,3K,116
+P471107,,"Hair, Value & Gift Sets",$68.00 ($82.00 value),1K,5
+P399992,,"Hair, Hair Styling & Treatments, Hair Oil",$18.00,82.9K,1.4K
+P421944,,"Hair, Shampoo & Conditioner, Conditioner",$18.00,22K,365
+P421945,,"Hair, Shampoo & Conditioner, Shampoo",$40.00 ($43.00 value),29.5K,618
+P471108,,"Hair, Value & Gift Sets",$68.00 ($82.00 value),287,
+P457414,,"Hair, Hair Styling & Treatments, Hair Masks",$18.00,10K,322
+P468714,,"Hair, Hair Styling & Treatments, Hair Styling Products",$18.00,3.1K,284
+P410207,,"Hair, Shampoo & Conditioner, Shampoo",$18.00,8.9K,172
+P399993,,"Hair, Shampoo & Conditioner, Conditioner",$18.00,14.3K,270
+P406901,,"Hair, Hair Styling & Treatments, Hair Masks",$18.00,23.1K,366
+P399994,,"Hair, Shampoo & Conditioner, Shampoo",$18.00,16.1K,441
+P410208,,"Hair, Shampoo & Conditioner, Conditioner",$40.00 ($43.00 value),5.2K,86
+P163103,,"Fragrance, Women, Perfume",$30.00,115.1K,2.1K
+P468856,,"Fragrance, Women, Perfume",$84.00,4.3K,669
+P435317,,"Fragrance, Value & Gift Sets, Perfume Gift Sets",$18.00,27K,62
+P382751,,"Fragrance, Men, Cologne",$92.00,26.9K,353
+P429981,,"Fragrance, Women, Perfume",$92.00,23.7K,248
+P385465,,"Fragrance, Women, Perfume",$115.00,13.4K,158
+P219907,,"Fragrance, Men, Cologne",$120.00 ($158.00 value),10.6K,303
+P455378,,"Mini Size, Fragrance",$18.00,19.6K,21
+P411325,,"Fragrance, Men, Cologne",$122.00 ($170.00 value),10.6K,137
+P468857,,"Fragrance, Women, Rollerballs & Travel Size",$30.00,2.2K,669
+P399835,,"Fragrance, Women, Rollerballs & Travel Size",$32.00,21.9K,2.1K
+P169301,,"Fragrance, Men, Cologne",$120.00 ($152.00 value),9.4K,314
+P255506,,"Fragrance, Women, Perfume",$165.00,171K,4.8K
+P446119,,"Fragrance, Women, Rollerballs & Travel Size",$32.00,18.4K,4.7K
+P261810,,"Fragrance, Women, Rollerballs & Travel Size",$35.00,62.4K,1.1K
+P471290,,"Fragrance, Women, Perfume",$115.00,949,4
+P426305,,Fragrance,$55.00,20.6K,4.7K
+P429082,,"Fragrance, Women, Perfume",$120.00,24.7K,258
+P376737,,"Fragrance, Men, Cologne",$92.00,16.9K,503
+P456977,,"Fragrance, Value & Gift Sets, Perfume Gift Sets",$130.00 ($173.00 value),5K,8
+P397836,,"Fragrance, Women, Perfume",$98.00,29.2K,254
+P405501,,"Fragrance, Men, Cologne",$120.00,3.1K,158
+P441723,,"Fragrance, Women, Perfume",$115.00,10.3K,207
+P445721,,"Fragrance, Men, Cologne",$110.00,2.6K,123
+P437714,Size 10 x 0.04 oz/ 1.2 g,"Makeup, Eye, Eye Palettes",$18.00,99.8K,428
+P454983,,"Makeup, Eye, Eye Palettes",$18.00,21.8K,96
+P463493,,"Makeup, Eye, Eye Palettes",$45.00,4.4K,11
+P429027,,"Makeup, Eye, Eye Palettes",$30.00,31.1K,336
+P429925,,"Makeup, Eye, Eye Palettes",$45.00,30.9K,179
+P468858,,"Makeup, Eye, Eye Palettes",$42.00,1.9K,5
+P466892,,"Makeup, Eye, Eye Palettes",$36.00,3K,6
+P448850,,"Makeup, Eye, Eye Palettes",$42.00,11.9K,45
+P460733,,"Makeup, Eye, Eye Palettes",$42.00,6.3K,30
+P442876,,"Makeup, Eye, Eye Palettes",$25.00 $42.00,13.3K,61
+P433200,,"Makeup, Eye, Eye Palettes",$27.00 $45.00,39.9K,311
+P428123,,"Makeup, Eye, Eye Palettes",$27.00 $45.00,40.3K,267
+P460411,,"Hair, Hair Styling & Treatments, Scalp & Hair Treatments",$46.00,3.9K,14
+P448734,,"Hair, Shampoo & Conditioner, Conditioner",$40.00,3.7K,51
+P448865,,"Hair, Hair Styling & Treatments, Hair Oil",$42.00,4.8K,33
+P448169,,"Hair, Hair Styling & Treatments, Hair Masks",$30.00,4.8K,73
+P448733,,"Hair, Shampoo & Conditioner, Shampoo",$38.00,4.5K,64
+P448739,,"Hair, Hair Styling & Treatments, Hair Styling Products",$32.00,3.2K,29
+P448729,,"Hair, Shampoo & Conditioner, Shampoo",$38.00,2.4K,19
+P448730,,"Hair, Shampoo & Conditioner, Conditioner",$40.00,1.2K,4
+P455871,,"Hair, Value & Gift Sets",$36.00 ($45.00 value),1.8K,5
+P448732,,"Hair, Shampoo & Conditioner, Conditioner",$40.00,1.1K,15
+P455833,,"Hair, Hair Styling & Treatments, Hair Styling Products",$36.00,675,2
+P468719,,"Hair, Hair Styling & Treatments, Hair Styling Products",$36.00,492,3
+P391306,Format 0.84 oz,"Makeup, Eye, Eye Palettes",$80.00,126.4K,720
+P470064,,"Makeup, Eye, Eye Palettes",$44.00,2.1K,5

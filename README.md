@@ -5,7 +5,7 @@ Team members: Person 1 (diludl), Person 2 (***uniqname***)
 What is your proposed project and why are you proposing it? 
 - Top beauty products that can bring customer happiness during COVID-19
 - Analyzing Sephora reivews and Google search trends to find top beauty products that can bring people happiness during COVID-19. The proxies of happiness are high rating in customer reviews with key words related to happiness and high increase in search trends during COVID-19.
-- 
+
 What are the question(s) you want to answer, or goal you want to achieve? 
 
 ### 2.Describe your primary dataset. How was it collected and how will you access it? Please share what features in the dataset are relevant to your topic. At a minimum, include the following information:
@@ -36,3 +36,27 @@ What are the question(s) you want to answer, or goal you want to achieve?
    - API:
       1. bazaarvoice
       2. google search trend 
+### 3. Describe your secondary dataset. How was it collected and how will you access it? Please share what features in the dataset are relevant to your topic and describe the data types you’re expecting.  At a minimum, include the following information:
+- Short description (i.e., 1-3 sentences) of its key features
+  - Google trend datasets (access in April 2021). The dataset will include the google search trend for product category and selected product.
+- Estimated size (in records and/or bytes)
+   - Google trend datasets: 
+     1. product category: 260 records * 143 columns
+     2. selected product: tbd
+- Location (give the URL or other access method)
+   - Google trend datasets: GitHub [link](https://github.com/einslulu/Sephora_Review_Analysis/tree/main/data)
+- Format (CSV, JSON, etc.)
+   - parquet
+- Access method (download, web scraping, API, etc.
+   - API:google search trend 
+
+### 4. [Yes] Please check this box to confirm that your primary and secondary datasets are accessible and available to your classmates and the instructional team. 
+
+### 5. How will you join your primary and secondary datasets? What challenges, if any, do you anticipate?
+- There are three datasets in prmiary datasts. They will join together with product ID 
+- Primary and secondary dataset will join with product category name or product name 
+
+### 6. Describe any analyses you plan to undertake. For each, please give the technique or approach and briefly explain what you expect to learn from it. 
+- to understand what beauty products can bring happiness to consumer during pandamic by analyszing the top beauty products that have high rating and big interest increase during pandamic. We will focus on data transformation and EDA.
+- to bring customize happiness for differnt customer profiles. We will foucs on recommendor system technique
+

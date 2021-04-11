@@ -72,5 +72,5 @@ What are the question(s) you want to answer, or goal you want to achieve?
 - xxxx
 
 ### 8. Does your choice of data raise any ethical issues? If so, briefly describe the concern and how you plan to mitigate it. 
-	- Potential bias: the analysis might only represent the people who like online shopping, tend to leave review and their profile information 
+- Potential bias: the analysis might only represent the people who like online shopping, tend to leave review and their profile information 
 

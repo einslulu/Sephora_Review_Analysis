@@ -1,0 +1,125 @@
+﻿No.,category,#Product,Re_category_level1,Re_category_level2
+0,After Sun Care,1,Skincare,Sunscreen
+1,Aftershave,3,Men,Men
+2,Anti-Aging,8,Skincare,Face Skincare
+3,BB & CC Cream,15,Makeup,Foundation & Primer
+4,BB & CC Creams,8,Makeup,Foundation & Primer
+5,Bath & Body,6,Bath & Body,Bath & Body
+6,Bath & Shower,2,Bath & Body,Bath & Body
+7,Bath Soaks & Bubble Bath,1,Bath & Body,Bath & Body
+8,Beauty Supplements,35,Wellness,Wellness
+9,Blemish & Acne Treatments,24,Skincare,Face Skincare
+10,Blotting Papers,4,Makeup,Face Skincare
+11,Blush,46,Makeup,Blush
+12,Body Lotions & Body Oils,44,Bath & Body,Bath & Body
+13,Body Mist & Hair Mist,2,Hair,Hair care
+14,Body Products,1,Bath & Body,Bath & Body
+15,Body Sunscreen,9,Bath & Body,Sunscreen
+16,Body Wash & Shower Gel,23,Bath & Body,Bath & Body
+17,Bronzer,30,Makeup,Bronzer
+18,Brush Cleaners,15,Tools & Brushes,Face Tools
+19,Brush Sets,3,Tools & Brushes,Maekup Tools
+20,Cellulite & Stretch Marks,2,Bath & Body,Bath & Body
+21,Cheek Palettes,15,Makeup,Palettes
+22,Cologne,65,Fragrance,Fragrance
+23,Color Care,4,Hair,Hair care
+24,Color Correct,5,Hair,Hair care
+25,Concealer,76,Makeup,Concealer
+26,Conditioner,51,Hair,Conditioner
+27,Contour,13,Makeup,Contour
+28,Curling Irons,4,Tools & Brushes,Hair Tool
+29,Decollete & Neck Creams,3,Skincare,Face Skincare
+30,Deodorant & Antiperspirant,4,Bath & Body,Bath & Body
+31,Dry Shampoo,21,Hair,Shampoo
+32,Exfoliators,29,Skincare,Face Skincare
+33,Eye Brushes,18,Tools & Brushes,Eye Brushes
+34,Eye Creams & Treatments,95,Skincare,Eye Skincare
+35,Eye Masks,11,Skincare,Eye Skincare
+36,Eye Palettes,116,Makeup,Eyeshadow
+37,Eye Primer,20,Makeup,Eye Primer
+38,Eye Sets,1,Makeup,Eye Sets
+39,Eyebrow,60,Makeup,Eyebrow
+40,Eyelash Curlers,9,Makeup,Eyelash Curlers
+41,Eyeliner,59,Makeup,Eyeliner
+42,Eyeshadow,41,Makeup,Eyeshadow
+43,Face Brushes,69,Tools & Brushes,Face Tools
+44,Face Masks,132,Skincare,Face Skincare
+45,Face Oils,63,Skincare,Face Skincare
+46,Face Primer,80,Makeup,Foundation & Primer
+47,Face Serums,217,Skincare,Face Skincare
+48,Face Sets,5,Skincare,Face Skincare
+49,Face Sunscreen,39,Skincare,Sunscreen
+50,Face Wash,8,Skincare,Face Skincare
+51,Face Wash & Cleansers,144,Skincare,Face Skincare
+52,Face Wipes,9,Skincare,Face Skincare
+53,Facial Cleansing Brushes,16,Tools & Brushes,Face Tools
+54,Facial Peels,41,Skincare,Face Skincare
+55,Facial Rollers,5,Tools & Brushes,Face Tools
+56,False Eyelashes,22,Makeup,False Eyelashes
+57,For Body,13,Bath & Body,Bath & Body
+58,For Face,10,Skincare,Face Skincare
+59,Foundation,112,Makeup,Foundation & Primer
+60,Fragrance,1,Fragrance,Fragrance
+61,Hair,12,Hair,Hair care
+62,Hair Accessories,9,Tools & Brushes,Hair Tool
+63,Hair Brushes & Combs,7,Tools & Brushes,Hair Tool
+64,Hair Dryers,8,Tools & Brushes,Hair Tool
+65,Hair Masks,28,Hair,Hair care
+66,Hair Oil,21,Hair,Hair care
+67,Hair Primers,17,Hair,Hair care
+68,Hair Removal,2,Hair,Hair Styling
+69,Hair Removal & Shaving,2,Hair,Hair Styling
+70,Hair Spray,9,Hair,Hair Styling
+71,Hair Straighteners & Flat Irons,11,Hair,Hair Styling
+72,Hair Styling Products,83,Hair,Hair Styling
+73,Hair Thinning & Hair Loss,1,Hair,Hair care
+74,Hand Cream & Foot Cream,13,Bath & Body,Bath & Body
+75,Highlighter,86,Makeup,Highlighter
+76,Holistic Wellness,5,Wellness,Wellness
+77,Leave-In Conditioner,19,Hair,Conditioner
+78,Lip Balm & Treatment,40,Skincare,Lip Skincare
+79,Lip Balms & Treatments,39,Skincare,Lip Skincare
+80,Lip Brushes,2,Tools & Brushes,Maekup Tools
+81,Lip Gloss,45,Makeup,Lipstick
+82,Lip Liner,19,Makeup,Lipstick
+83,Lip Plumper,1,Makeup,Lipstick
+84,Lip Sets,5,Makeup,Lipstick
+85,Lip Stain,13,Makeup,Lipstick
+86,Lip Sunscreen,1,Skincare,Sunscreen
+87,Lip Treatments,1,Skincare,Lip Skincare
+88,Lipstick,123,Makeup,Lipstick
+89,Liquid Lipstick,4,Makeup,Lipstick
+90,Lotions & Oils,5,Bath & Body,Bath & Body
+91,Makeup,61,Makeup,Makeup Mini
+92,Makeup & Travel Cases,2,Makeup,Makeup Mini
+93,Makeup Bags & Travel Cases,3,Makeup,Makeup Bags & Travel Cases
+94,Makeup Palettes,15,Makeup,Palettes
+95,Makeup Removers,21,Makeup,Makeup Removers
+96,Mascara,100,Makeup,Mascara
+97,Mini Size,36,Skincare,Face Skincare
+98,Mirrors & Sharpeners,5,Tools & Brushes,Maekup Tools
+99,Mists & Essences,45,Skincare,Face Skincare
+100,Moisturizer & Treatments,6,Skincare,Face Skincare
+101,Moisturizers,238,Skincare,Face Skincare
+102,Nail,23,Nail,Nail
+103,Night Creams,22,Skincare,Face Skincare
+104,Perfume,287,Fragrance,Fragrance
+105,Perfume Gift Sets,3,Fragrance,Fragrance
+106,Rollerballs & Travel Size,49,Fragrance,Fragrance
+107,Scalp & Hair Treatments,32,Hair,Hair care
+108,Scrub & Exfoliants,9,Skincare,Face Skincare
+109,Self Tanners,7,Skincare,Sunscreen
+110,Setting Spray & Powder,63,Makeup,Setting Spray & Powder
+111,Shampoo,66,Hair,Shampoo
+112,Shaving,9,Men,Men
+113,Sheet Masks,17,Skincare,Face Skincare
+114,Skincare,27,Skincare,Face Skincare
+115,Skincare Sets,1,Value & Gift sets,Value & Gift sets
+116,Spa Tools,1,Bath & Body,Bath & Body
+117,Sponges & Applicators,11,Tools & Brushes,Maekup Tools
+118,Sunscreen,2,Skincare,Sunscreen
+119,Teeth Whitening,4,Tools & Brushes,Teeth Tools
+120,Tinted Moisturizer,10,Skincare,Face Skincare
+121,Toners,54,Skincare,Face Skincare
+122,Tweezers & Eyebrow Tools,6,Tools & Brushes,Maekup Tools
+123,Value & Gift Sets,48,Value & Gift sets,Value & Gift sets

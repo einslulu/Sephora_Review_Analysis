@@ -1,17 +1,6 @@
 <!-- Output copied to clipboard! -->
 
 
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 0; ALERTS: 6.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
-<a href="#gdcalert2">alert2</a>
-<a href="#gdcalert3">alert3</a>
-<a href="#gdcalert4">alert4</a>
-<a href="#gdcalert5">alert5</a>
-<a href="#gdcalert6">alert6</a>
-
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
 
 
 **Sephora Review Analysis**
@@ -26,11 +15,11 @@ Sephora, the leader in prestige beauty Omni-retail with a roughly 80% of US mark
 
 Our proposed project is motivated by our interest in the beauty industry to identify the category and product level trends that have gained traction both post-pandemic and during the pandemic. The main category level contains Fragrance, Skincare, Makeup, Hair, Value & Gifts sets, Tools & Brushes, Bath & Body, Men, Wellness and Nail. To select the top 3 products on the selected main categories, we developed a model using seven indicators to measure what kind of products can bring customers joy during the COVID-19. In this project, we want to answer the following questions on three levels: general level, category level, and specific product level.
 
+1）General: Is there any correlation among price, love, product life, number of reviews, and rating? What are the correlations among price, love, product life, number of reviews, and rating for each main category
 
+2）Category level: Which main category was heavily impacted by the epidemic? Which main category has experienced the highest review changes during the epidemic? 
 
-1. General: Is there any correlation among price, love, product life, number of reviews, and rating? What are the correlations among price, love, product life, number of reviews, and rating for each main category
-2. Category level: Which main category was heavily impacted by the epidemic? Which main category has experienced the highest review changes during the epidemic? 
-3. Product level: What kind of indicators can measure products that bring customers happiness during COVID-19? What kind of products in the top selected categories bring customers happiness during COVID-19?
+3）Product level: What kind of products in the top selected categories bring customers happiness during COVID-19?
 
 **Data source: **
 
@@ -42,7 +31,7 @@ We have two data sources:
 
 
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image1.png "image_tooltip")
@@ -58,7 +47,7 @@ _ Important variables in  data source 2_
 
 
 
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image2.png "image_tooltip")
@@ -193,9 +182,7 @@ With two data sources, we can compare the ratings and reviews before the Pandemi
 
 How to use Bazaarvoice API:** **We use python requests.get to download review data and we can also set different parameters to limit the scope (see below). 
 
- url = 'https://api.bazaarvoice.com/data/reviews.json'
-
- params = { 'Filter': f'ProductId:{p_id}',  'Sort': 'SubmissionTime:desc', 'Limit': 100,  'Offset': 0, 'Include': 'Products,Comments', 'Stats': 'Reviews', 'passkey': 'caQ0pQXZTqFVYA1yYnnJ9emgUiW59DXA85Kxry8Ma02HE','apiversion': 5.4,'Locale': 'en_US' }
+ url = '[https://api.bazaarvoice.com/data/reviews.json](https://api.bazaarvoice.com/data/reviews.json)'; params = { 'Filter': f'ProductId:{p_id}',  'Sort': 'SubmissionTime:desc', 'Limit': 100,  'Offset': 0, 'Include': 'Products,Comments', 'Stats': 'Reviews', 'passkey': 'caQ0pQXZTqFVYA1yYnnJ9emgUiW59DXA85Kxry8Ma02HE','apiversion': 5.4,'Locale': 'en_US' }
 
 r = requests.get(url, params=params, proxies={"http": proxy, "https": proxy}, timeout=15)
 
@@ -205,7 +192,7 @@ The packages we used in this section are documented in [requirements.txt](https:
 
 
 
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image5.png "image_tooltip")
@@ -225,7 +212,7 @@ There are in total 13 files downloaded from Bazaarvoice API. We created the belo
 
 SKU_id is one level of detail below Product_id. It means the same product may have different variants: package size, color, etc. However, the review and product information is the same for SKUs in a given product id. Thus, we need to remove duplicated lines. 
 
-In this step, we encountered the biggest **challenge **to manipulate data: the data is more than 6 GB, while my RAM is only 8 GB. To avoid system slowdown or crash, we first selected columns needed for analysis and deleted the loaded data from memory in each iteration when combining files.  After removing the duplicates, we saved the two data frames into two files: **all_products_no_dup.pk**l and **all_reviews_no_dup.pkl. **The two files are held [here](https://drive.google.com/drive/folders/1Bjil5EROv8y4I9qsrU5WSqMnCaMb8z64?usp=sharing). <span style="text-decoration:underline;">You can use these two files for the following data manipulation and analysis parts.  </span> Some variables have dictionaries as values. Therefore, we cannot save them as CSV or parquet files. To open the pickle files, you would need to have Python 3.8 as indicated in the requirement.txt.
+**Challenge: **In this step, we encountered the biggest **challenge **to manipulate data: the data is more than 6 GB, while my RAM is only 8 GB. To avoid system slowdown or crash, we first selected columns needed for analysis and deleted the loaded data from memory in each iteration when combining files.  After removing the duplicates, we saved the two data frames into two files: **all_products_no_dup.pk**l and **all_reviews_no_dup.pkl. **The two files are held [here](https://drive.google.com/drive/folders/1Bjil5EROv8y4I9qsrU5WSqMnCaMb8z64?usp=sharing). <span style="text-decoration:underline;">You can use these two files for the following data manipulation and analysis parts.  </span> Some variables have dictionaries as values. Therefore, we cannot save them as CSV or parquet files. To open the pickle files, you would need to have Python 3.8 as indicated in the requirement.txt.
 
 **Step 2: Create data frame Product data 2020_2021**
 
@@ -241,7 +228,7 @@ In this step, we encountered the biggest **challenge **to manipulate data: the d
 *   Create new features to support later analysis：
     *   Re-map category: the categories from the data source are at the lowerest level, which is not suitable for our analysis. We have to create [category_map.csv](https://drive.google.com/drive/folders/1Bjil5EROv8y4I9qsrU5WSqMnCaMb8z64?usp=sharing) to re-map the product categories manually. We created function _create_category_level1_and_level2_map()_ to re-map the products into 10 categories. 
     *   Covert _review submission time_ to date format YYYY-MM-DD
-    *   Create variable '_product_life'_: the years between April 2021 to product launched time on the website. 1) we use the first _review submission time _as the proxy of product launched time on the website. 2) The product_life can help us tag whether a product has a life above one year or two years. It will also enable us to calculate the average review count per year.
+    *   Create variable '_product_life'_: the years since first review submission. 1) we use the first _review submission time _as the proxy of product launched time on the website. 2) The product_life can help us tag whether a product has a life above one year or two years. It will also enable us to calculate the average review count per year.
 
 **Step 3: Create reviews related data frames: **
 
@@ -262,7 +249,7 @@ In this step, we encountered the biggest **challenge **to manipulate data: the d
 
 
 
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image6.png "image_tooltip")
@@ -272,7 +259,7 @@ In this step, we encountered the biggest **challenge **to manipulate data: the d
 
 *   We use function _create_new_features_on_merged_data(df) _to create above features for analysis. Below is the explanation for important variables (review counts and ratings related).  
     *   Ratings related: 'Rating_up_to_2020' and 'Rating_up_to_2021' give the snapshot of rating per product. 'Rating_period_2019-2020' and 'Rating_period_2020-2021' is the average of ratings for all reviews submitted during the periods. For missing values (only 2-3%), we use 'Rating_up_to_2020' and 'Rating_up_to_2021' to fill in.
-    *   Review counts related: 'Review_count_up_to_2020_normalized' and 'Review_count_up_to_2021_normalized' are average of review counts per year in 2020 and 2021 separately. We capped all values above or equal to zero. We use them to fillna for the missing values (only 2-3%) in 'Review_count_period_2019-2020' and 'Review_count_period_2020-2021'. 
+    *   Review counts related: 'Review_count_up_to_2020_normalized' and 'Review_count_up_to_2021_normalized' are average of review counts per year in 2020 and 2021 separately. We **capped** all values above or equal to zero. We use them to fillna for the **missing values** (only 2-3%) in 'Review_count_period_2019-2020' and 'Review_count_period_2020-2021'. 
 *   Lastly, we compared the review counts and ratings between April 2019 - April 2020 (before pandemic) and April 2020 - April 2021(during a pandemic) to help us see what products consumers value more during the pandemic.
 
 **Step 6: Create a time series data frame from the Review Level data frame for visualization.**
@@ -283,3 +270,62 @@ In this step, we created the function_ prepare_df_review_time_series_for_charts_
 
 *   We groupby review submission date and category to calculate the review counts/ average rating per month per category in the function. 
 *   To plot the time series chart, we put the date in the Index and Category in columns.
+
+**Analysis and Visualization**
+
+**1) General:**
+
+**Is there any correlation among price, love, product life, number of reviews, and rating?**
+
+These five variables that we selected, price, love, product life, number of reviews, and rating in 2021 from data frame ‘df_product_review_finall_all’, all have the potential to impact or reflect customers’ purchasing behaviors. By using seaborn module to create this correlation heatmap matrix, we have some critical findings for further data exploration. 
+
+We discovered that the variable ‘love’, which represents the customers’ likeness and willingness to repurchase the product, has a positive relationship (0.73) with the number of reviews written by the buyers. This indicates that the more people like the products they buy, the higher possibility that they would leave a comment online after using products. We also found that product rating has little correlation with product price (0.07), product life (0.13), number of reviews (0.049), and love for the product (0.043). In other words, price or product life has little impact on customers’ decision on product rating.
+
+**What are the correlations among price, love, product life, number of reviews, and rating for each main category?**
+
+    By using the pairplot function under the module seaborn, we have some interesting findings. For instance, makeup and skincare occupy the largest portion of reviews counts since green (Makeup) and orange (Skincare) dots are located at higher positions compared to other categories that indicate makeup and skincare outperform other main categories in numbers. The fragrance is the most expensive category and has the highest ratings, while makeup and skincare are the least expensive, and the average rating is lower, approximately 4.2. 
+
+**2)Category level:**
+
+**Which main category was heavily impacted by the epidemic?**
+
+We extracted all the review counts from 2016 to 2021 and broke them down into ten main categories. As we can see from the graph, makeup and skincare, which have more review counts than any other categories, went down sharply between 2020 and 2021, during COVID-19. In other words, makeup and skincare are heavily impacted by the epidemic. Meanwhile, the review counts of hair decrease to a level lower than a fragrance that rarely happened within five years.
+
+       
+
+Another interesting phenomenon we discovered that, besides the review counts of fragrance increased, the rating of fragrance products went above any other categories during the epidemic. This indicates that, due to the social distance policy, consumers tend to use fragrance to relieve the tensions brought by the virus and leave a higher rating.
+
+**Which main category has experienced the highest variance during the epidemic? **
+
+ Then we take a look at the matrix of review changes versus rating changes by using the review count and rating differences between 2020 and 2021. Each color spot on the four-quadrant represents a product under the main category. Those positions at the first quadrant that have increased in both review counts and ratings are products with good performance and resilience towards health crisis. Those positions at the  third quadrant that have decreased in both review counts and ratings are products with bad performance and volatile to the epidemic. As we can see on the four quadrants, more dots locate on the left side than on the right side, which demonstrates the fact that most beauty products experience a double downturn from both review and rating.
+
+However, there are too many dots on the same graph that we cannot see the tendency of each main category, so we visualized the scatterplots of each main category as below:
+
+
+
+
+
+![alt_text](images/image7.png "image_tooltip")
+
+
+We define dots in the first quadrant as ‘good’(green), those in the second or fourth quadrant as usual (grey), and dots in the third quadrant as ‘bad’(red). Among all the main categories, makeup and skincare have more products than other types, meanwhile have more dots on the left side. Alternatively, the fragrance is the big winner since most dots position on the right side,which re-verified the hypothesis of the relief brought to consumers during the epidemic. Men and nails are the least favored product type. All the other categories (Hair, Bath & Body, Wellness, Tools & Brushes, Value & Gift sets) experience the downturn in both review counts and rating during COVID-19, except for the fragrance.
+
+By exploring review texts in ‘df_reviews_2021’, we counted the reviews related to COVID-19 and happiness throughout the epidemic. We filtered review texts related to the virus with words like ‘covid, pandemic and virus’, while for joy we use keywords of ‘happy, joy, happiness and relax’. From the graphs, we see that the most reviews related to the virus (purple area) and happiness are under the skincare category. That is not only because skincare is the largest category in Sephora, but also because skincare is the most common type of beauty product used when staying at home. The fragrance also occupies a large portion of review texts related to happiness. This may explain why the rating increased during the epidemic.
+
+**3)Product level:**
+
+**What kind of products can bring customer happiness during COVID-19?**
+
+In order to find out what specific products of the top 3 categories, which have the highest variance, can bring consumers happiness during the epidemic, we developed our model to measure ‘happiness‘ by using seven indicators. With a total score of 5, ‘love’ weighs 0.5 point, ‘review count up to 2021’ is allocated to 1 point, ‘2 year product review diff’ accounts for 1 point, ‘rating up to 2021’ for 1 point, ‘2 year product rating diff’ for 1, COVID-19 related words mentioned in the review ('#review_covid') for 0.25 points and happiness related words mentioned in the review ('#review_happy') for 0.25 points. Then we normalize different weights using MinMax scaler on all the indicators and sort values by happiness score weight and main category, to get the top 3 products in each category. 
+
+**Conclusion**
+
+**1)General:** review counts have a positive relationship with love, rating has little correlation with product life, love, product price, and the number of reviews. Makeup and skincare outperform other main categories in numbers.
+
+**2)Category level: **makeup and skincare are heavily impacted by the virus and decreased both in review counts and rating, while fragrance has more review counts and higher rating during the epidemic. 
+
+**3)Product level: **fragrance products bring consumers the most happiness during the epidemic. The top 3 products in the skincare, makeup and fragrance category explains the mentality and demand of consumers during the epidemic.
+
+**Statement of Work**
+
+We facilitated the areas that demonstrate our interests while discussing and collaborating on a daily basis. Di Lu led the coding part, including the data collection, manipulation and part of visualization. Jingzhi Chen took the lead on the topic idea, content, analysis and visuals. Both are responsible for the final report.

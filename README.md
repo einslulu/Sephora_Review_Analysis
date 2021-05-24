@@ -1,13 +1,5 @@
 <!-- Output copied to clipboard! -->
 
-<!-----
-NEW: Check the "Suppress top comment" option to remove this info from the output.
-
-Conversion time: 3.393 seconds.
-
-
-
-
 **Sephora Review Analysis**
 
 **Project for Milestone 1, SIADS 591&592**

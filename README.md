@@ -3,9 +3,9 @@
 
 
 
-**Sephora Review Analysis**
+# Sephora Review Analysis**
 
-**Project for Milestone 1, SIADS 591&592**
+## Project for Milestone 1, SIADS 591&592**
 
 **Motivation**
 
@@ -59,7 +59,7 @@ We created **_webscrape_sephora_review_data.ipynb_** to scrape data. To test the
 
 
 
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image3.png "image_tooltip")
@@ -133,7 +133,7 @@ With two data sources, we can compare the ratings and reviews before the Pandemi
 
 
 
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
 
 
 ![alt_text](images/image4.png "image_tooltip")

@@ -132,3 +132,7 @@ dmypy.json
 *.pkl
 *.bak
 *.json
+*.csv
+*.xls
+*.parquet
+*.xlsx

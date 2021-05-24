@@ -1,76 +1,599 @@
-# Sephora_Review_Analysis
-Team members: Person 1 (diludl), Person 2 (***uniqname***)
+<!-- Output copied to clipboard! -->
 
-### 1. Summarize your proposed project in a few sentences.
-What is your proposed project and why are you proposing it? 
-- Top beauty products that can bring customer happiness during COVID-19
-- Analyzing Sephora reviews and Google search trends to find top beauty products that can bring people happiness during COVID-19. The proxies of happiness are high rating in customer reviews with key words related to happiness and high increase in search trends during COVID-19.
+<!-----
+NEW: Check the "Suppress top comment" option to remove this info from the output.
 
-Why Sephora: 
-Consumer behavior change: long time stay at home, less social work and outdoor activities,  more anxiety from news, environment and feeling of uncertainty. 
+Conversion time: 2.783 seconds.
 
 
+Using this Markdown file:
 
-What are the question(s) you want to answer, or goal you want to achieve? 
+1. Paste this output into your source file.
+2. See the notes and action items below regarding this conversion run.
+3. Check the rendered output (headings, lists, code blocks, tables) for proper
+   formatting and use a linkchecker before you publish this page.
 
-### 2.Describe your primary dataset. How was it collected and how will you access it? Please share what features in the dataset are relevant to your topic. At a minimum, include the following information:
-- Short description (i.e., 1-3 sentences) of its key features
-  - There are three types of datasets:
-     1. Sephora products datasets(pre-pandemic(before April 2020), Pandemic (April 2020 - April 2021). The dataset will include product information (name, category, size, price), customer review, likes
-     2. Sephora products review datasets (accessed in April 2021). The dataset will include rating, review details, customer profile
-     3. Google trend datasets (access in April 2021). The dataset will include the google search trend for product category and selected product.
-- Estimated size (in records and/or bytes)
-   - Sephora products datasets: two files, each file contains about 9000 records * 22 columns
-   - Sephora products review datasets : 190k records * 90 columns
-   - Google trend datasets: 
-     1. product category: 260 records * 143 columns
-     2. selected product: tbd
-- Location (give the URL or other access method)
-   - Sephora products datasets:
-     1. pre-pandemic(before April 2020): Kaggle [link](https://www.kaggle.com/raghadalharbi/all-products-available-on-sephora-website)
-     2. Pandemic (April 2020 - April 2021): GitHub [link](https://github.com/einslulu/Sephora_Review_Analysis/tree/main/data)
-   - Sephora products review datasets: GitHub [link](https://github.com/einslulu/Sephora_Review_Analysis/tree/main/data)
-   - Google trend datasets: GitHub [link](https://github.com/einslulu/Sephora_Review_Analysis/tree/main/data)
-- Format (CSV, JSON, etc.)
-   - parquet
-   - CSV
-   - JSON
-- Access method (download, web scraping, API, etc.)
-   - Kaggle download: Kaggle
-   - web scraping: www.sephora.com
-   - API:
-      1. bazaarvoice
-      2. google search trend 
-### 3. Describe your secondary dataset. How was it collected and how will you access it? Please share what features in the dataset are relevant to your topic and describe the data types you’re expecting.  At a minimum, include the following information:
-- Short description (i.e., 1-3 sentences) of its key features
-  - Google trend datasets (access in April 2021). The dataset will include the google search trend for product category and selected product.
-- Estimated size (in records and/or bytes)
-   - Google trend datasets: 
-     1. product category: 260 records * 143 columns
-     2. selected product: tbd
-- Location (give the URL or other access method)
-   - Google trend datasets: GitHub [link](https://github.com/einslulu/Sephora_Review_Analysis/tree/main/data)
-- Format (CSV, JSON, etc.)
-   - parquet
-- Access method (download, web scraping, API, etc.
-   - API: google search trend 
+Conversion notes:
 
-### 4. [Yes] Please check this box to confirm that your primary and secondary datasets are accessible and available to your classmates and the instructional team. 
+* Docs to Markdown version 1.0β29
+* Mon May 24 2021 06:58:19 GMT-0700 (PDT)
+* Source doc: Data source and data manipulation
+* Tables are currently converted to HTML tables.
+* This document has images: check for >>>>>  gd2md-html alert:  inline image link in generated source and store images to your server. NOTE: Images in exported zip file from Google Docs may not appear in  the same order as they do in your doc. Please check the images!
 
-### 5. How will you join your primary and secondary datasets? What challenges, if any, do you anticipate?
-- There are three datasets in primary datasets. They will join together with product ID 
-- Primary and secondary dataset will join with product category name or product name 
+----->
 
-### 6. Describe any analyses you plan to undertake. For each, please give the technique or approach and briefly explain what you expect to learn from it. 
-- to understand what beauty products can bring happiness to consumer during pandemic by analyzing the top beauty products that have high rating and big interest increase during pandemic. We will focus on data transformation and EDA.
-- to bring customize happiness for different customer profiles. We will focus on recommender system technique
 
-### 7. Describe in 1-3 sentences at least one data visualization you plan to create. Include the chart type (e.g. bar chart, scatterplot, SPLOM, etc.) as well as the variables (features) you intend to plot. 
-- top beauty product: 
-  - bar chart 
-  - Variables: product name, rating, like, review count, search trend 
-- xxxx
+<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 0; ALERTS: 6.</p>
+<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
 
-### 8. Does your choice of data raise any ethical issues? If so, briefly describe the concern and how you plan to mitigate it. 
-- Potential bias: the analysis might only represent the people who like online shopping, tend to leave review and their profile information 
+<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
+<a href="#gdcalert2">alert2</a>
+<a href="#gdcalert3">alert3</a>
+<a href="#gdcalert4">alert4</a>
+<a href="#gdcalert5">alert5</a>
+<a href="#gdcalert6">alert6</a>
 
+<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
+
+
+**Data source: **
+
+We have two data sources:
+
+
+
+*   Data source 1 is the _web scraped data_ from the Sephora website (CSV file). It contains the product information (e.g., product name, brand, category, love, price, review count and rating, URL). We also use the URL to get **Product_id**, which is the input for Data Source 2. 
+
+
+
+<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/image1.png "image_tooltip")
+
+
+_                                                                                                                                                     Important variables in  data source 2_
+
+
+
+*   Data source 2 is the _Bazaarvoice API download_ (JSON file). It contains two levels of information. 
+    *   Product level: e.g., product name, product id, ratings, reviews, rating distribution, first review submission time. 
+    *   Review level: e.g., product id, review id, review text, review submission time, user info (e.g., hair color, skin tone, age)
+
+
+
+<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/image2.png "image_tooltip")
+
+
+_                                                                                                                                                       Important variables in  data source 2_
+
+We created **_webscrape_sephora_review_data.ipynb_** to scrape data. To test the script, we first took some sample data to estimate the time of scraping. 
+
+
+
+<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/image3.png "image_tooltip")
+
+
+
+<table>
+  <tr>
+   <td>Source: <a href="https://www.sephora.com/">https://www.sephora.com/</a>
+<p>
+Step1: in total, 335 brands
+<ul>
+
+<li>Sample data Location: <a href="https://drive.google.com/drive/folders/1tPsgCU_EbbNfa4PgAxTeojDzERDfjrH9?usp=sharing">google drive link</a> 
+
+<p>
+Step2 &3: 
+<ul>
+
+<li>Sample test of one brand: acqua-di-parma. 
+
+<li>There are 12 products for the brand. 
+
+<li>Time spent to get Product URL: 20min 
+
+<li>Scrap time per product: 1.67 min. 
+
+<li>Estimated time for all products (10,000): approx. 278 hours  
+</li>
+</ul>
+</li>
+</ul>
+   </td>
+   <td>Source: Bazaarvoice API (<a href="https://api.bazaarvoice.com/data/reviews.json?Filter=contentlocale%3Aen*&Filter=ProductId%3AP470507&Sort=SubmissionTime%3Adesc&Limit=6&Offset=0&Include=Products%2CComments&Stats=Reviews&passkey=caQ0pQXZTqFVYA1yYnnJ9emgUiW59DXA85Kxry8Ma02HE&apiversion=5.4&Locale=en_US">example</a>) 
+<p>
+Step 4: 
+<ul>
+
+<li>Sample test of scraping reviews of the first ten products
+
+<li>Time spent: 20 seconds for 361 reviews 
+
+<li>Time spent per review: 0.063 sec
+
+<li>Estimated time for all reviews (2,586,652) of all products: approx. 40 hours
+</li>
+</ul>
+   </td>
+  </tr>
+</table>
+
+
+The estimated hours to scrape complete data is more than 300 hours, which is not realistic. Therefore, we decided to limit the scope. 
+
+**Sephora Selected data used in the Project **(Data source 1 & 2)**- **time of scraping: **14 hours.**
+
+**Data Source 1:**
+
+
+
+*   Due to time limitations, we decided to utilize the dataset downloaded from Kaggle and limit the scope of the products in the analysis. It will save our time getting Data source 1 and give us the ratings and reviews snapshot for each product before **April 2020**. 
+
+**Data Source 2:**
+
+
+
+*   Based on Product Data from Kaggle, the median of review counts is 50. There are 12 products with reviews counts above 10,000. Due to the time limitations, in Data Source 2, we decided to download the latest **(April/May 2021**) up to 3,100 reviews for each product. In this case, we will still cover all reviews for 98% of the selected product in Data source 1. 
+*   We also split the products into 13 batches to download.
+
+With two data sources, we can compare the ratings and reviews before the Pandemic (April 2019 - March 2020) and during the Pandemic (April 2020 -April 2021) in the US. 
+
+
+
+<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/image4.png "image_tooltip")
+
+
+
+<table>
+  <tr>
+   <td><strong>Product Data (Kaggle)-</strong>Data Source1
+<ul>
+
+<li>Location: <a href="https://drive.google.com/drive/u/2/folders/1Xw4U0PpjKCBi13XMWUDufactY0RJPrfA">google drive  link</a>
+
+<li>Access: Download from Kaggle (<a href="https://www.kaggle.com/raghadalharbi/all-products-available-on-sephora-website">link</a>)
+
+<li>Format: CSV
+
+<li>Size & Records: 22.18 MB, 9169 records * 21 columns
+
+<li>Size & Records used : 3960 records (rating >= 5 & review count >=50)
+
+<li>Period Covered: Product information by April 2020
+</li>
+</ul>
+   </td>
+   <td><strong>Product & Review Data </strong>- Data Source 2
+<ul>
+
+<li>Location: <a href="https://drive.google.com/drive/u/2/folders/1Xw4U0PpjKCBi13XMWUDufactY0RJPrfA">google drive  link</a>
+
+<li>Access:Bazaarvoice API (details see below)
+
+<li>Format: JSON
+
+<li>Size & Records:  6.42GB (13 files)
+
+<li>Period Covered: Product information by April 2020; 
+
+<li>Review information: latest 3100 reviews 
+</li>
+</ul>
+   </td>
+  </tr>
+</table>
+
+
+How to use Bazaarvoice API:** **We use python requests.get to download review data and we can also set different parameters to limit the scope (see below). Please refer to **_webscrape_sephora_review_data.ipynb_** for details. 
+
+ url = 'https://api.bazaarvoice.com/data/reviews.json'
+
+ params = { 'Filter': f'ProductId:{p_id}',  'Sort': 'SubmissionTime:desc', 'Limit': 100,  'Offset': 0, 'Include': 'Products,Comments', 'Stats': 'Reviews', 'passkey': 'caQ0pQXZTqFVYA1yYnnJ9emgUiW59DXA85Kxry8Ma02HE','apiversion': 5.4,'Locale': 'en_US' }
+
+r = requests.get(url, params=params, proxies={"http": proxy, "https": proxy}, timeout=15)
+
+**Data Manipulation**
+
+The packages we used in this section are documented in [requirements.txt](https://drive.google.com/drive/folders/1Bjil5EROv8y4I9qsrU5WSqMnCaMb8z64?usp=sharing). The data from two data sources seemed without significant NaN or other issues. We have six steps in Data Manipulation:
+
+
+
+<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/image5.png "image_tooltip")
+
+
+**Step 1: Consolidate files and remove duplicates.**
+
+There are in total 13 files downloaded from Bazaarvoice API. We created the below functions to get Product level data frame up to April 2021 and Review the level data frame:
+
+
+
+*   _get_review_product_df( product_id,file_name )_: the function is to get Product level data for each product. Important variables include below:
+    *   ProductId, name, brand, category
+    *   Total Reviews
+    *    AverageOverallRating
+*   _get_review_level_df( product_id,file_name _): the function is to get Review level data for each product. Important variables include below:
+    *    FirstSubmissionTime
+    *    Rating
+    *    ContextData: eye color, hair color, etc.
+*   _extract_all_product(file_name_): the function is to extract all products and create two data frames: **Product level data frame up to April 2021 **(14,789 records) and **Review level data frame **(2,700,551 records).
+
+SKU_id is one level of detail below Product_id. It means the same product may have different variants: package size, color, etc. However, the review and product information is the same for SKUs in a given product id. Thus, we need to remove duplicated lines. 
+
+In this step, we encountered the biggest **challenge **to manipulate data: the data is more than 6 GB, while my RAM is only 8 GB. To avoid system slowdown or crash, we first selected columns needed for analysis and deleted the loaded data from memory in each iteration when combining files.  After removing the duplicates, we saved the two data frames into two files: **all_products_no_dup.pk**l and **all_reviews_no_dup.pkl. **The two files are held [here](https://drive.google.com/drive/folders/1Bjil5EROv8y4I9qsrU5WSqMnCaMb8z64?usp=sharing). <span style="text-decoration:underline;">You can use these two files for the following data manipulation and analysis parts.  </span> Some variables have dictionaries as values. Therefore, we cannot save them as CSV or parquet files. To open the pickle files, you would need to have Python 3.8 as indicated in the requirement.txt.
+
+**Step 2: Create data frame Product data 2020_2021**
+
+
+
+*   Create below functions to combine product dataframe from two products related dataframes (Dataframe1 2020: Kaggle data snapshot at April 2020 and Dataframe2 2021: Webscrap data snapshot at April 2021 ): 
+    *   _create_product_df_2020(df_product_list)_, 
+    *   _create_product_df_2021(df_product, df_product_b42020_temp)_
+    *   _combine_two_product_df(df_product_b42020_temp, df_product_af2020_temp)_
+*   The dataframe contains following important variables:
+    *   'Product_id','name','size','brand','category','love','price','value_price','URL'
+    *   'Number_of_reviews_2020','rating_2020','number_of_reviews_2021','rating_2021'
+*   Create new features to support later analysis：
+    *   Re-map category: the categories from the data source are at the lowerest level, which is not suitable for our analysis. We have to create [category_map.csv](https://drive.google.com/drive/folders/1Bjil5EROv8y4I9qsrU5WSqMnCaMb8z64?usp=sharing) to re-map the product categories manually. We created function _create_category_level1_and_level2_map()_ to re-map the products into 10 categories. 
+    *   Covert _review submission time_ to date format YYYY-MM-DD
+    *   Create variable '_product_life'_: the years between April 2021 to product launched time on the website
+        *   we use first _review submission time _as the proxy of product launched time on the website. 
+        *   The product_life can help us tag whether a product has a life above one year or two years. It will also enable us to calculate the average review count per year.
+
+**Step 3: Create reviews related data frames: **
+
+
+
+*   To compare the review counts and ratings before and during the pandemic, we built below two functions to get data frame **Review Data during April 2019 -April 2020** and **Review Data during April 2020 -April 2021. **In the function, we selected the periods April 2019 -April 2020 and April 2020 -April 2021and groupy product id to calculate the review counts and average rating for both periods. 
+    *   create_product_reviews_2021(df_reviews)
+    *   create_product_reviews_2020(df_reviews)
+*   Validate the review data completeness: 
+    *   There are 99% of products with a product life of more than one year. Due to the limit of scraping, the data frame **Review Data during April 2020 -April 2021** covers 97% of the products. The rest 3% we will fillna with (review count 2021 - review count 2020) and rating 2021 in the Step 5. Like products with a product life of more than two years, 85% of products have a product life of more than two years. Our data frame **Review Data during April 2019 -April 2020 **covers 98% of their data. The rest will fillna with Review_count_up_to_2020_normalized and rating 2020 in Step 5. 
+
+**Step 4: Merge three data frames created in Step 2 and 3**
+
+
+
+*   We created function _merge_review_to_product(three data frames made in Steps 2 and 3)_ to merge data frames. The key is still the product_id. 
+
+**Step 5: Create new features for analysis**
+<!-- Output copied to clipboard! -->
+
+<!-----
+NEW: Check the "Suppress top comment" option to remove this info from the output.
+
+Conversion time: 2.783 seconds.
+
+
+Using this Markdown file:
+
+1. Paste this output into your source file.
+2. See the notes and action items below regarding this conversion run.
+3. Check the rendered output (headings, lists, code blocks, tables) for proper
+   formatting and use a linkchecker before you publish this page.
+
+Conversion notes:
+
+* Docs to Markdown version 1.0β29
+* Mon May 24 2021 06:58:19 GMT-0700 (PDT)
+* Source doc: Data source and data manipulation
+* Tables are currently converted to HTML tables.
+* This document has images: check for >>>>>  gd2md-html alert:  inline image link in generated source and store images to your server. NOTE: Images in exported zip file from Google Docs may not appear in  the same order as they do in your doc. Please check the images!
+
+----->
+
+
+<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 0; ALERTS: 6.</p>
+<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
+
+<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
+<a href="#gdcalert2">alert2</a>
+<a href="#gdcalert3">alert3</a>
+<a href="#gdcalert4">alert4</a>
+<a href="#gdcalert5">alert5</a>
+<a href="#gdcalert6">alert6</a>
+
+<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
+
+
+**Data source: **
+
+We have two data sources:
+
+
+
+*   Data source 1 is the _web scraped data_ from the Sephora website (CSV file). It contains the product information (e.g., product name, brand, category, love, price, review count and rating, URL). We also use the URL to get **Product_id**, which is the input for Data Source 2. 
+
+
+
+<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/image1.png "image_tooltip")
+
+
+_                                                                                                                                                     Important variables in  data source 2_
+
+
+
+*   Data source 2 is the _Bazaarvoice API download_ (JSON file). It contains two levels of information. 
+    *   Product level: e.g., product name, product id, ratings, reviews, rating distribution, first review submission time. 
+    *   Review level: e.g., product id, review id, review text, review submission time, user info (e.g., hair color, skin tone, age)
+
+
+
+<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/image2.png "image_tooltip")
+
+
+_                                                                                                                                                       Important variables in  data source 2_
+
+We created **_webscrape_sephora_review_data.ipynb_** to scrape data. To test the script, we first took some sample data to estimate the time of scraping. 
+
+
+
+<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/image3.png "image_tooltip")
+
+
+
+<table>
+  <tr>
+   <td>Source: <a href="https://www.sephora.com/">https://www.sephora.com/</a>
+<p>
+Step1: in total, 335 brands
+<ul>
+
+<li>Sample data Location: <a href="https://drive.google.com/drive/folders/1tPsgCU_EbbNfa4PgAxTeojDzERDfjrH9?usp=sharing">google drive link</a> 
+
+<p>
+Step2 &3: 
+<ul>
+
+<li>Sample test of one brand: acqua-di-parma. 
+
+<li>There are 12 products for the brand. 
+
+<li>Time spent to get Product URL: 20min 
+
+<li>Scrap time per product: 1.67 min. 
+
+<li>Estimated time for all products (10,000): approx. 278 hours  
+</li>
+</ul>
+</li>
+</ul>
+   </td>
+   <td>Source: Bazaarvoice API (<a href="https://api.bazaarvoice.com/data/reviews.json?Filter=contentlocale%3Aen*&Filter=ProductId%3AP470507&Sort=SubmissionTime%3Adesc&Limit=6&Offset=0&Include=Products%2CComments&Stats=Reviews&passkey=caQ0pQXZTqFVYA1yYnnJ9emgUiW59DXA85Kxry8Ma02HE&apiversion=5.4&Locale=en_US">example</a>) 
+<p>
+Step 4: 
+<ul>
+
+<li>Sample test of scraping reviews of the first ten products
+
+<li>Time spent: 20 seconds for 361 reviews 
+
+<li>Time spent per review: 0.063 sec
+
+<li>Estimated time for all reviews (2,586,652) of all products: approx. 40 hours
+</li>
+</ul>
+   </td>
+  </tr>
+</table>
+
+
+The estimated hours to scrape complete data is more than 300 hours, which is not realistic. Therefore, we decided to limit the scope. 
+
+**Sephora Selected data used in the Project **(Data source 1 & 2)**- **time of scraping: **14 hours.**
+
+**Data Source 1:**
+
+
+
+*   Due to time limitations, we decided to utilize the dataset downloaded from Kaggle and limit the scope of the products in the analysis. It will save our time getting Data source 1 and give us the ratings and reviews snapshot for each product before **April 2020**. 
+
+**Data Source 2:**
+
+
+
+*   Based on Product Data from Kaggle, the median of review counts is 50. There are 12 products with reviews counts above 10,000. Due to the time limitations, in Data Source 2, we decided to download the latest **(April/May 2021**) up to 3,100 reviews for each product. In this case, we will still cover all reviews for 98% of the selected product in Data source 1. 
+*   We also split the products into 13 batches to download.
+
+With two data sources, we can compare the ratings and reviews before the Pandemic (April 2019 - March 2020) and during the Pandemic (April 2020 -April 2021) in the US. 
+
+
+
+<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/image4.png "image_tooltip")
+
+
+
+<table>
+  <tr>
+   <td><strong>Product Data (Kaggle)-</strong>Data Source1
+<ul>
+
+<li>Location: <a href="https://drive.google.com/drive/u/2/folders/1Xw4U0PpjKCBi13XMWUDufactY0RJPrfA">google drive  link</a>
+
+<li>Access: Download from Kaggle (<a href="https://www.kaggle.com/raghadalharbi/all-products-available-on-sephora-website">link</a>)
+
+<li>Format: CSV
+
+<li>Size & Records: 22.18 MB, 9169 records * 21 columns
+
+<li>Size & Records used : 3960 records (rating >= 5 & review count >=50)
+
+<li>Period Covered: Product information by April 2020
+</li>
+</ul>
+   </td>
+   <td><strong>Product & Review Data </strong>- Data Source 2
+<ul>
+
+<li>Location: <a href="https://drive.google.com/drive/u/2/folders/1Xw4U0PpjKCBi13XMWUDufactY0RJPrfA">google drive  link</a>
+
+<li>Access:Bazaarvoice API (details see below)
+
+<li>Format: JSON
+
+<li>Size & Records:  6.42GB (13 files)
+
+<li>Period Covered: Product information by April 2020; 
+
+<li>Review information: latest 3100 reviews 
+</li>
+</ul>
+   </td>
+  </tr>
+</table>
+
+
+How to use Bazaarvoice API:** **We use python requests.get to download review data and we can also set different parameters to limit the scope (see below). Please refer to **_webscrape_sephora_review_data.ipynb_** for details. 
+
+ url = 'https://api.bazaarvoice.com/data/reviews.json'
+
+ params = { 'Filter': f'ProductId:{p_id}',  'Sort': 'SubmissionTime:desc', 'Limit': 100,  'Offset': 0, 'Include': 'Products,Comments', 'Stats': 'Reviews', 'passkey': 'caQ0pQXZTqFVYA1yYnnJ9emgUiW59DXA85Kxry8Ma02HE','apiversion': 5.4,'Locale': 'en_US' }
+
+r = requests.get(url, params=params, proxies={"http": proxy, "https": proxy}, timeout=15)
+
+**Data Manipulation**
+
+The packages we used in this section are documented in [requirements.txt](https://drive.google.com/drive/folders/1Bjil5EROv8y4I9qsrU5WSqMnCaMb8z64?usp=sharing). The data from two data sources seemed without significant NaN or other issues. We have six steps in Data Manipulation:
+
+
+
+<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/image5.png "image_tooltip")
+
+
+**Step 1: Consolidate files and remove duplicates.**
+
+There are in total 13 files downloaded from Bazaarvoice API. We created the below functions to get Product level data frame up to April 2021 and Review the level data frame:
+
+
+
+*   _get_review_product_df( product_id,file_name )_: the function is to get Product level data for each product. Important variables include below:
+    *   ProductId, name, brand, category
+    *   Total Reviews
+    *    AverageOverallRating
+*   _get_review_level_df( product_id,file_name _): the function is to get Review level data for each product. Important variables include below:
+    *    FirstSubmissionTime
+    *    Rating
+    *    ContextData: eye color, hair color, etc.
+*   _extract_all_product(file_name_): the function is to extract all products and create two data frames: **Product level data frame up to April 2021 **(14,789 records) and **Review level data frame **(2,700,551 records).
+
+SKU_id is one level of detail below Product_id. It means the same product may have different variants: package size, color, etc. However, the review and product information is the same for SKUs in a given product id. Thus, we need to remove duplicated lines. 
+
+In this step, we encountered the biggest **challenge **to manipulate data: the data is more than 6 GB, while my RAM is only 8 GB. To avoid system slowdown or crash, we first selected columns needed for analysis and deleted the loaded data from memory in each iteration when combining files.  After removing the duplicates, we saved the two data frames into two files: **all_products_no_dup.pk**l and **all_reviews_no_dup.pkl. **The two files are held [here](https://drive.google.com/drive/folders/1Bjil5EROv8y4I9qsrU5WSqMnCaMb8z64?usp=sharing). <span style="text-decoration:underline;">You can use these two files for the following data manipulation and analysis parts.  </span> Some variables have dictionaries as values. Therefore, we cannot save them as CSV or parquet files. To open the pickle files, you would need to have Python 3.8 as indicated in the requirement.txt.
+
+**Step 2: Create data frame Product data 2020_2021**
+
+
+
+*   Create below functions to combine product dataframe from two products related dataframes (Dataframe1 2020: Kaggle data snapshot at April 2020 and Dataframe2 2021: Webscrap data snapshot at April 2021 ): 
+    *   _create_product_df_2020(df_product_list)_, 
+    *   _create_product_df_2021(df_product, df_product_b42020_temp)_
+    *   _combine_two_product_df(df_product_b42020_temp, df_product_af2020_temp)_
+*   The dataframe contains following important variables:
+    *   'Product_id','name','size','brand','category','love','price','value_price','URL'
+    *   'Number_of_reviews_2020','rating_2020','number_of_reviews_2021','rating_2021'
+*   Create new features to support later analysis：
+    *   Re-map category: the categories from the data source are at the lowerest level, which is not suitable for our analysis. We have to create [category_map.csv](https://drive.google.com/drive/folders/1Bjil5EROv8y4I9qsrU5WSqMnCaMb8z64?usp=sharing) to re-map the product categories manually. We created function _create_category_level1_and_level2_map()_ to re-map the products into 10 categories. 
+    *   Covert _review submission time_ to date format YYYY-MM-DD
+    *   Create variable '_product_life'_: the years between April 2021 to product launched time on the website
+        *   we use first _review submission time _as the proxy of product launched time on the website. 
+        *   The product_life can help us tag whether a product has a life above one year or two years. It will also enable us to calculate the average review count per year.
+
+**Step 3: Create reviews related data frames: **
+
+
+
+*   To compare the review counts and ratings before and during the pandemic, we built below two functions to get data frame **Review Data during April 2019 -April 2020** and **Review Data during April 2020 -April 2021. **In the function, we selected the periods April 2019 -April 2020 and April 2020 -April 2021and groupy product id to calculate the review counts and average rating for both periods. 
+    *   create_product_reviews_2021(df_reviews)
+    *   create_product_reviews_2020(df_reviews)
+*   Validate the review data completeness: 
+    *   There are 99% of products with a product life of more than one year. Due to the limit of scraping, the data frame **Review Data during April 2020 -April 2021** covers 97% of the products. The rest 3% we will fillna with (review count 2021 - review count 2020) and rating 2021 in the Step 5. Like products with a product life of more than two years, 85% of products have a product life of more than two years. Our data frame **Review Data during April 2019 -April 2020 **covers 98% of their data. The rest will fillna with Review_count_up_to_2020_normalized and rating 2020 in Step 5. 
+
+**Step 4: Merge three data frames created in Step 2 and 3**
+
+
+
+*   We created function _merge_review_to_product(three data frames made in Steps 2 and 3)_ to merge data frames. The key is still the product_id. 
+
+**Step 5: Create new features for analysis**
+
+
+
+<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/image6.png "image_tooltip")
+
+
+
+
+*   We use function _create_new_features_on_merged_data(df) _to create above features for analysis. Below is the explanation for important variables (review counts and ratings related).  
+    *   Ratings related: 
+        *   'Rating_up_to_2020' and 'Rating_up_to_2021' give the snapshot of rating per product. 
+        *   'Rating_period_2019-2020' and 'Rating_period_2020-2021' is the average of ratings for all reviews submitted during the periods. For missing values (only 2-3%), we use 'Rating_up_to_2020' and 'Rating_up_to_2021' to fill in.
+    *   Review counts related:
+        *   'Review_count_up_to_2020_normalized' and 'Review_count_up_to_2021_normalized' are average of review counts per year in 2020 and 2021 separately. We capped all values above or equal to zero. We use them to fillna for the missing values (only 2-3%) in 'Review_count_period_2019-2020' and 'Review_count_period_2020-2021' 
+*   Lastly, we compared the review counts and ratings between April 2019 - April 2020 (before pandemic) and April 2020 - April 2021(during a pandemic) to help us see what products consumers value more during the pandemic.
+
+**Step 6: Create a time series data frame from the Review Level data frame for visualization.**
+
+In this step, we created the function_ prepare_df_review_time_series_for_charts_ to create a time series data frame for visualization. 
+
+
+
+*   We groupby review submission date and category to calculate the review counts/ average rating per month per category in the function. 
+*   To plot the time series chart, we put the date in the Index and Category in columns.
+
+
+<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/image6.png "image_tooltip")
+
+
+
+
+*   We use function _create_new_features_on_merged_data(df) _to create above features for analysis. Below is the explanation for important variables (review counts and ratings related).  
+    *   Ratings related: 
+        *   'Rating_up_to_2020' and 'Rating_up_to_2021' give the snapshot of rating per product. 
+        *   'Rating_period_2019-2020' and 'Rating_period_2020-2021' is the average of ratings for all reviews submitted during the periods. For missing values (only 2-3%), we use 'Rating_up_to_2020' and 'Rating_up_to_2021' to fill in.
+    *   Review counts related:
+        *   'Review_count_up_to_2020_normalized' and 'Review_count_up_to_2021_normalized' are average of review counts per year in 2020 and 2021 separately. We capped all values above or equal to zero. We use them to fillna for the missing values (only 2-3%) in 'Review_count_period_2019-2020' and 'Review_count_period_2020-2021' 
+*   Lastly, we compared the review counts and ratings between April 2019 - April 2020 (before pandemic) and April 2020 - April 2021(during a pandemic) to help us see what products consumers value more during the pandemic.
+
+**Step 6: Create a time series data frame from the Review Level data frame for visualization.**
+
+In this step, we created the function_ prepare_df_review_time_series_for_charts_ to create a time series data frame for visualization. 
+
+
+
+*   We groupby review submission date and category to calculate the review counts/ average rating per month per category in the function. 
+*   To plot the time series chart, we put the date in the Index and Category in columns.
